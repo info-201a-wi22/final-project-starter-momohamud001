@@ -1,20 +1,20 @@
-# Title of your Project: Project Proposal 
+# Title of your Project: Project Proposal
 
 **TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
 
 ## Developer Notes
 
 * **Where is the project brief?**  [`../instructions/project-design-brief.pdf`](../instructions/project-design-brief.pdf).
-* **Making Progress**: We understand this work might be difficult. Also, we understand that your project ideas might not be completely worked out. So, we ask that you do the best you can. You will receive specific guidance from your TA and constructive feedback. We are confident that you will succeed! 
-* **What should be included in the proposal?** Every proposal will be different. It depends on your particular project.  That said, in the table below you will find the expected report elements.  It is important that you engage with and respond to the the Design Brief. 
-* **How should the proposal be formatted?** You should format your proposal using Markdown in this file. You should aim for a professional presentation - clear, concise, interesting, and free of spelling and grammatical errors. 
-* **What headings should we use?** As needed, the suggested headings below can be revised and new headings and sub-headings can be added. Please use headings, bullet lists, tables, figures, and other markdown code effectively - seek a professional presentation. 
+* **Making Progress**: We understand this work might be difficult. Also, we understand that your project ideas might not be completely worked out. So, we ask that you do the best you can. You will receive specific guidance from your TA and constructive feedback. We are confident that you will succeed!
+* **What should be included in the proposal?** Every proposal will be different. It depends on your particular project.  That said, in the table below you will find the expected report elements.  It is important that you engage with and respond to the the Design Brief.
+* **How should the proposal be formatted?** You should format your proposal using Markdown in this file. You should aim for a professional presentation - clear, concise, interesting, and free of spelling and grammatical errors.
+* **What headings should we use?** As needed, the suggested headings below can be revised and new headings and sub-headings can be added. Please use headings, bullet lists, tables, figures, and other markdown code effectively - seek a professional presentation.
 * **Finishing up.** When you are finished writing and formatting your proposal, save these developer notes(they might useful in the future). Then, delete them.
 * **Questions?** If you have questions, please ask your TA or post on Teams.
 
 |Element | Brief Description|
 |---------------| --------------
-|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _Jazz-4_, _Rocking Fish_, etc. | 
+|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _Jazz-4_, _Rocking Fish_, etc. |
 |Project title| Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.) |
 |Authors | Names of your team members and contact information (email addresses). |
 |Affiliation |  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington |
@@ -30,3 +30,48 @@
 |Acknowledgements | Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
 |References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
 |Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
+
+# Musical Equality
+
+### Team members names:
+* Mohamed Mohamoud : 2063078443
+*
+*
+*
+*
+
+### INFO-201: Technical Foundations of Informatics
+**Winter 2022**
+
+|Abstract:|
+|---------------
+our main question is about why artiest of different genders receive different treatment in the music industry. This topic is important because not many of us know that many of the female artist we listen too are being discriminated against and treated unfairly then their male counter parts. we plan too look into the aspects of the music industry such as record deals given to woman and men in similar circumstances and leadership positions in the industry filled by woman.
+
+|Keywords:|
+|---------------
+* Equality
+* Gender
+* Music
+
+|Introduction:|
+|---------------
+Our project  Musical Equality is centered around the idea that female artists are not being treated fairly across the music industry. Our aim is to research the different ways that women are being discriminated against in the music industry where a majority of artists, producers and writers are men. We will focus on topics such as the problem of pay gaps between men and women, where women are paid considerably less than compared to men. Overall we want to fairly represent women who are pushed down when trying to speak up about this topic. Listening to your favorite female rapper or women country mogul should come at the price of women rights and equality. We plan on providing insight into how some metrics such as record deal payouts and the different rates of men and women in leadership positions affects women throughout the music industry.
+
+|Design Situation:|
+|---------------
+setting:
+project framing:
+human values:
+direct and indirect stakeholders:
+harms and benefits:
+
+| Research questions:|
+|---------------
+*
+*
+*
+*
+*
+
+| The Dataset:|
+|---------------
