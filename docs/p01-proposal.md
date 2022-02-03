@@ -31,7 +31,7 @@
 |References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
 |Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
 
-# Musical Equality
+# Equality on the Big Screen
 
 ### Team members names:
 * Mohamed Mohamoud : 2063078443
@@ -45,33 +45,46 @@
 
 |Abstract:|
 |---------------
-our main question is about why artiest of different genders receive different treatment in the music industry. This topic is important because not many of us know that many of the female artist we listen too are being discriminated against and treated unfairly then their male counter parts. we plan too look into the aspects of the music industry such as record deals given to woman and men in similar circumstances and leadership positions in the industry filled by woman.
+our main question is about why actors of different genders receive different treatment in the movie industry. This topic is important because not many of us know that many of the female actors we watch are being discriminated against and treated unfairly compared their male counter parts. we plan too look into the aspects of the movie industry such as differences in pay out given to woman and men in similar circumstances and leadership positions in the industry filled by woman.
 
 |Keywords:|
 |---------------
 * Equality
 * Gender
-* Music
+* movie
 
 |Introduction:|
 |---------------
-Our project  Musical Equality is centered around the idea that female artists are not being treated fairly across the music industry. Our aim is to research the different ways that women are being discriminated against in the music industry where a majority of artists, producers and writers are men. We will focus on topics such as the problem of pay gaps between men and women, where women are paid considerably less than compared to men. Overall we want to fairly represent women who are pushed down when trying to speak up about this topic. Listening to your favorite female rapper or women country mogul should come at the price of women rights and equality. We plan on providing insight into how some metrics such as record deal payouts and the different rates of men and women in leadership positions affects women throughout the music industry.
+Our project Equality on the Big Screen is centered around the idea that female artists are not being treated fairly across Hollywood. Our aim is to research the different ways that women are being discriminated against in the movie industry where a majority of A list actors, directors and writers are men. We will focus on topics such as the problem of pay gaps between men and women, where women are paid considerably less than compared to men. Overall we want to fairly represent women who are pushed down when trying to speak up about this topic. Watching your favorite female actress or favorite movie directed by a women shouldn't come at the price of women rights and equality. We plan on providing insight into how some metrics such as payout per movie and the different rates of men and women in leadership positions affects women throughout the movie industry.
 
-|Design Situation:|
-|---------------
-setting:
-project framing:
-human values:
-direct and indirect stakeholders:
-harms and benefits:
+## Design Situation:
+**project framing** the problem that is of concern here is the discriminatory actions taken against woman in the movie industry. the key issues on hand here are the pay gaps that has lasted decades and still effects up and coming actress and already established ones. bringing this information to light will show a clear line between how women are discriminated and the actions needed to be taken to fix it.
 
-| Research questions:|
-|---------------
-*
-*
-*
-*
-*
+**human values:** the human vales that are being represented can be quite clear such as sexism that stems from the overall leadership representation of majority men and the hostile work environment that these woman have to endure since this is their work place. other human values can be the ability to have equal access to things such as power, resources and opportunities. being fairly respected allows women to be able to have those things at the same rate as men but that is not the case in the movie industry.
+
+**direct and indirect stakeholders:** The direct stakeholders are the women in the Hollywood who are being taken advantage of in all regards by men in power. From all levels in film making women of all skills and back grounds more or less are still treated unfairly. The key motivation to be treated fairly for women is the fact that this is their place of work and something they enjoy doing. Women in this industry hold the value of wanting to simply be respected by fellow film makers. The indirect stakeholders in our research would be movie goers who watch their favorite actress or director who don't know that they are being discriminated against and might not appear in the movie they watch.
+
+**harms and benefit** The benefits of this research is very wide spreed across not only gender inequality for women but for all people that discriminated against in the movie industry. it isn't clear where the harm might be or if there are any.
+
+## Research questions:
+* **why do women get payed less then men in movies**:
+
+This is a important because being able to understand the reasoning being hind the women not receiving the same pay as men will help us understand where the root of the problem is at and how to fix it
+
+* **why are there less female directors/writers in movies**:
+
+This question is important because it highlights the leadership problem in film making where most decisions are made. Asking question and diving deep into why women are absent from key positions in the industry will help shed light on why men are favored in certain circumstances.
+
+* **how do stereotypes of women in films effect their ability to get key roles**
+
+This question is important because of the long standing belief that women cant be the star of movies or they have to be he ones being saved, this has long standing effects to young women that grow up thinking thats all they will be able to be. this also as a effects on how directors an writers are picked and also how women are paid
+
 
 | The Dataset:|
+|---------------
+
+| Expected Implications:|
+|---------------
+
+| Limitations:|
 |---------------
