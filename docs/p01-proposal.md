@@ -80,7 +80,7 @@ This question is important because it highlights the leadership problem in film 
 
 * **How Bechdel Test scores have changed between 1950-2021?**
 
-* **Application and Critical Thinking: How do stereotypes of women in films effect their ability to attain key roles?**
+* **Application and Critical Thinking: How do stereotypes of women in films affect their ability to attain key roles?**
 
 This question is important because of the long standing belief that women cant be the star of movies or they have to be he ones being saved, this has long standing effects to young women that grow up thinking thats all they will be able to be. this also as a effects on how directors an writers are picked and also how women are paid
 
