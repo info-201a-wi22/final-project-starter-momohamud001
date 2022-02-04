@@ -43,7 +43,7 @@
 
 ## Abstract:
 
-This project will examine the (under/mis) representation of female actors in the movie industry. Using the Bechdel Test, we will observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1950-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once these areas have been studied, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to get key roles. 
+This project will examine the (under/mis) representation of female actors in the movie industry. Using the Bechdel Test, we will observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1970-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once these areas have been studied, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to get key roles. 
 
 Keywords:
 
@@ -92,10 +92,10 @@ This question is important because of the long standing belief that women cant b
 
 ## | The Dataset:|
 [movies.csv](https://github.com/info-201a-wi22/final-project-starter-momohamud001/files/8000402/movies.csv)
-This data set covers the Hollywood films from 1970-2013 and will be used for...It is split into columns of...The data originates from...It was last updated 5 years ago.
+This data set covers the Hollywood films from 1970-2013. It is split into colummns of year the film was released, imdb number, title, budget, and 3 columns dedicated to score the 3 criteria. This data set will be used to determine research questions one and two specifically, by examining trends over the period of time. The data was initially gathered from the orginal Bechdel Test website (https://bechdeltest.com/) where films are constantly being scored and updated with pass or failure of the Test. This csv file was was last updated 5 years ago.
 
 [Bechdel.csv](https://github.com/info-201a-wi22/final-project-starter-momohamud001/files/8000406/Bechdel.csv)
-This data set covers the Hollywood films from 1874-2021 and will be used for...It is split into columns of...The data originates from...It was last updated...
+This data set covers the Hollywood films from 1874-2021. It is split into colummns of year the film was released, imdb number, title, and a single column dedicated to score the three criteria using a scale of 0-3 (3 being the best outcome of passing all 3 requirements). This data set will be used to determine research question three specifically, by examining trends in the number of best outcomes over 1970-2021. It will also be used to support the other dataset and research questions if needed, due to its extensive span of data throughout centuries. The data was initially gathered from the orginal Bechdel Test website (https://bechdeltest.com/) where films are constantly being scored and updated with pass or failure of the Test. This csv file was was last updated 1 year ago.
 
 
 
