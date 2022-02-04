@@ -1,4 +1,4 @@
-#### Code name:
+#### Code name: Fem_Rep
 # Female Representation on the Big Screen
 **TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
 
@@ -43,66 +43,70 @@
 
 ## Abstract:
 
-This project will examine the (under/mis) representation of female actors in the movie industry. Using the Bechdel Test, we will observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1970-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once these areas have been studied, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to get key roles. 
+This project will examine the (under/mis) representation of female actors in the movie industry. Using the Bechdel Test, we will observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1950-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once these areas have been studied, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to get key roles. 
 
 Keywords:
 
 * Representation 
 * Women 
 * Bechdel Test
-* Hollywood Movies
+* Movies
 
 ## Introduction:
 
-Our project, Female Representation on the Big Screen, is centered around the idea that female actors are not being being given equal representation on screen in Hollywood films specifically. Our aim is to use the _Bechdel Test_ as a way to study the patterns of misrepresentation of females in the movie industry. Created by Alison Bechdel in 1985, the Bechdel Test is still relevent today and measures representation by checking three criteria:
+Our project, Female Representation on the Big Screen, is centered around the idea that female actors are not being being given equal representation on screen in films. Our aim is to use the _Bechdel Test_ as a way to study the patterns of misrepresentation of females in the movie industry. Created by Alison Bechdel in 1985, the Bechdel Test is still relevent today and measures representation by checking three criteria:
 - The movie has to have at least 2 [named] female characters
 - Who talk to each other
 - About something other than a man.
-In Hollywood, the majority of A-list actors, directors, and writers are men. This has led to their biases of women tainting the film industry and affecting broader issues such as unequal pay, key roles, and the reinforcement of stereotypes. We all have our favourite female actors or even directors, but few people are aware of the lack of credit they recieve and the major wasting of their greater potential simply due to Hollywood patriarchy.
+In Hollywood, for example, the majority of A-list actors, directors, and writers are men. This has led to their biases of women tainting the film industry and affecting broader issues such as unequal pay, key roles, and the reinforcement of stereotypes. We all have our favourite female actors or even directors, but few people are aware of the lack of credit they recieve and the major wasting of their greater potential simply due to Hollywood patriarchy.
 
 ## Design Situation:
 
 ##### **Project Framing:** 
-The problem that is of concern here is the discriminatory actions taken against woman in the movie industry. The key issues on hand here are the pay gaps that has lasted decades and still effects up and coming actress and already established ones. Bringing this information to light will show a clear line between how women are discriminated and the actions needed to be taken to fix it.
+The problem that is of concern here is the discriminatory actions taken against woman in the movie industry. The key issue on hand here is the disparity of screen time and representation of females, often in leading roles that has lasted decades and still affects up and coming actress as well as already established ones. Bringing this information to light will show a clear line between how often women appear in movies - not just for romantic interest - compared to their male counterparts.
 
 ##### **Human Values:** 
 The human values that are being represented can be quite clear such as sexism that stems from the overall leadership representation of majority men and the hostile work environment that these woman have to endure since this is their work place. Other human values can be the ability to have equal access to things such as power, resources and opportunities. Being fairly treated and respected allows women to be able to have these things at the same rate as men - but that is not the case in the movie industry.
 
 ##### **Direct and Indirect Stakeholders:** 
-The direct stakeholders are the women in the Hollywood who are being taken advantage of in all regards by men in power. From all levels in film-making, women of all skills and back grounds more or less are still treated unfairly. The key motivation for women being treated fairly is the fact that this is their vocation and something they enjoy doing. Women in this industry hold the value of wanting to simply be respected by fellow film makers. The indirect stakeholders in our research would be movie goers who watch their favorite actress or director who don't know that they are being discriminated against and might not appear in the movie they watch.
+The direct stakeholders are those viewing our data - the general public and likely women who are being taken advantage of in all regards by men in power. From all levels in film-making, women of all skills and back grounds more or less are still treated unfairly. The key motivation for women being treated fairly is the fact that this is their vocation and something they enjoy doing. Women in this industry hold the value of wanting to simply be respected by fellow film makers. The indirect stakeholders in our research would be movie goers who watch their favorite actress or director who don't know that they are being discriminated against and might not appear in the movie they watch.
 
 ###### **Harms and Benefits:** 
 The benefits of this research is very wide spreed across not only gender inequality for women but for all people that discriminated against in the movie industry. it isn't clear where the harm might be or if there are any.
 
-## Research questions:
+## **Research questions:**
 * **How profitable is a movie depending on its Bechdel Test score?**
 
-This is a important because being able to understand the reasoning being hind the women not receiving the same pay as men will help us understand where the root of the problem is at and how to fix it
+This is significant because being able to understand the reasoning behind the women not receiving the same pay as men will help us understand where the root of the problem is at and how to fix it
 
 * **Which of the three test requirements have the highest number of failed results?**
 
-This question is important because it highlights the leadership problem in filmmaking where most decisions are made. Asking questions and diving deep into why women are absent from key positions in the industry will help shed light on why men are favored in certain circumstances.
+This question is important because it highlights the leadership problem in filmmaking where most decisions are made. Asking questions and diving deep into why women are absent from leading or dynamic characters in the movie industry will help shed light on why men are favored in certain circumstances.
 
 * **How have Bechdel Test scores changed between 1950-2021?**
+
+Including a temporal comparison is important as gender norms, visibility, story telling, and popular genres have changed over time. As women gained more rights over time and feminist movements arose, there is a likelihood of increased Bechdel passability with relatively recent films. 
 
 * **Application and Critical Thinking: How do stereotypes of women in films affect their ability to attain key roles?**
 
 This question is important because of the long standing belief that women cant be the star of movies unless there's a romantic element or that they have to be the ones being saved, this has long standing effects to young women that grow up thinking that it is all they will ever be. This also has effects on how directors and writers are picked as well as how much women are paid compared to their male counterparts.
 
 
-## | The Dataset:|
+##  The Dataset:
 [movies.csv](https://github.com/info-201a-wi22/final-project-starter-momohamud001/files/8000402/movies.csv)
-This data set covers the Hollywood films from 1970-2013. It is split into colummns of year the film was released, imdb number, title, budget, and 3 columns dedicated to score the 3 criteria. This data set will be used to determine research questions one and two specifically, by examining trends over the period of time. The data was initially gathered from the orginal Bechdel Test website (https://bechdeltest.com/) where films are constantly being scored and updated with pass or failure of the Test. This csv file was was last updated 5 years ago.
+This data set covers the films from 1970-2013 and will be used for...It is split into columns of...The data originates from...It was last updated 5 years ago.
 
 [Bechdel.csv](https://github.com/info-201a-wi22/final-project-starter-momohamud001/files/8000406/Bechdel.csv)
-This data set covers the Hollywood films from 1874-2021. It is split into colummns of year the film was released, imdb number, title, and a single column dedicated to score the three criteria using a scale of 0-3 (3 being the best outcome of passing all 3 requirements). This data set will be used to determine research question three specifically, by examining trends in the number of best outcomes over 1970-2021. It will also be used to support the other dataset and research questions if needed, due to its extensive span of data throughout centuries. The data was initially gathered from the orginal Bechdel Test website (https://bechdeltest.com/) where films are constantly being scored and updated with pass or failure of the Test. This csv file was was last updated 1 year ago.
+This data set covers the films from 1874-2021 and will be used for...It is split into columns of...The data originates from...It was last updated...
 
 
 
-## | Expected Implications:|
+##  Expected Implications:
 
 
-## | Limitations:|
+##  Limitations:
+Some limitations that come with this project are the availability and locations of data, and the continuation of movie sagas. Some movies from our Bechdel data are from countries outside of North America, and thus the differences in gender norms and culture must be acknowledged. However, the values behind our project remain - female characters on-screen can be much more than just a love interest or a shallow, supporting character to a male lead and can increased dynamic representation can positively impact female viewers. Furthermore, movies that continue into sagas - like _Twilight_ - can increase data that may pass or fail the Bechdel test and therefore potentially alter the comprehensive, bigger picture. This could be controlled if sagas were reduced to their title films, though this would also disqualify a saga and our data from representing any female character arcs, development, or decreased Bechdel passability like _Pirates of the Caribbean_.
+
 
 
 ##### References:
