@@ -42,18 +42,18 @@
 **Winter 2022**
 
 ## Abstract:
-|---------------|
+
 This project will examine the (under/mis) representation of female actors in the movie industry. Using the Bechdel Test, we will observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1950-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once these areas have been studied, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to get key roles. 
 
 Keywords:
-|---------------|
+
 * Representation 
 * Women 
 * Bechdel Test
 * Hollywood Movies
 
 ## Introduction:
-|---------------|
+
 Our project, Female Representation on the Big Screen, is centered around the idea that female actors are not being being given equal representation on screen in Hollywood films specifically. Our aim is to use the _Bechdel Test_ as a way to study the patterns of misrepresentation of females in the movie industry. Created by Alison Bechdel in 1985, the Bechdel Test is still relevent today and measures representation by checking three criteria:
 - The movie has to have at least 2 [named] female characters
 - Who talk to each other
@@ -61,7 +61,7 @@ Our project, Female Representation on the Big Screen, is centered around the ide
 In Hollywood, the majority of A-list actors, directors, and writers are men. This has led to their biases of women tainting the film industry and affecting broader issues such as unequal pay, key roles, and the reinforcement of stereotypes. We all have our favourite female actors or even directors, but few people are aware of the lack of credit they recieve and the major wasting of their greater potential simply due to Hollywood patriarchy.
 
 ## Design Situation:
-|----------------|
+
 ##### **Project Framing:** The problem that is of concern here is the discriminatory actions taken against woman in the movie industry. The key issues on hand here are the pay gaps that has lasted decades and still effects up and coming actress and already established ones. Bringing this information to light will show a clear line between how women are discriminated and the actions needed to be taken to fix it.
 
 ##### **Human Values:** The human values that are being represented can be quite clear such as sexism that stems from the overall leadership representation of majority men and the hostile work environment that these woman have to endure since this is their work place. Other human values can be the ability to have equal access to things such as power, resources and opportunities. Being fairly treated and respected allows women to be able to have these things at the same rate as men - but that is not the case in the movie industry.
