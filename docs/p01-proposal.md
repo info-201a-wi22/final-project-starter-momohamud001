@@ -1,4 +1,4 @@
-# Title of your Project: Project Proposal
+# Female Representation on the Big Screen
 
 **TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
 
@@ -31,11 +31,9 @@
 |References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
 |Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
 
-# Equality on the Big Screen
-
 ### Team members names:
 * Mohamed Mohamoud : 2063078443
-*
+* Jaya Valji : 425-229-1797, jvalji@uw.edu
 *
 *
 *
@@ -45,17 +43,22 @@
 
 |Abstract:|
 |---------------
-our main question is about why actors of different genders receive different treatment in the movie industry. This topic is important because not many of us know that many of the female actors we watch are being discriminated against and treated unfairly compared their male counter parts. we plan too look into the aspects of the movie industry such as differences in pay out given to woman and men in similar circumstances and leadership positions in the industry filled by woman.
+This project will examine the (under/mis) representation, of women actors in the movie industry. Using the Bechdel Test, we will observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1950-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once studying these areas, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to get key roles. 
 
 |Keywords:|
 |---------------
-* Equality
-* Gender
-* movie
+* Representation 
+* Women 
+* Bechdel Test
+* Hollywood Movies
 
 |Introduction:|
 |---------------
-Our project Equality on the Big Screen is centered around the idea that female artists are not being treated fairly across Hollywood. Our aim is to research the different ways that women are being discriminated against in the movie industry where a majority of A list actors, directors and writers are men. We will focus on topics such as the problem of pay gaps between men and women, where women are paid considerably less than compared to men. Overall we want to fairly represent women who are pushed down when trying to speak up about this topic. Watching your favorite female actress or favorite movie directed by a women shouldn't come at the price of women rights and equality. We plan on providing insight into how some metrics such as payout per movie and the different rates of men and women in leadership positions affects women throughout the movie industry.
+Our project, Female Representation on the Big Screen, is centered around the idea that female actors are not being being given equal representation on screen in Hollywood films specifically. Our aim is to use the _Bechdel Test_ as a way to study the patterns of misrepresentation of females in the movie industry. Created by Alison Bechdel in 1985, the Bechdel Test is still relevent today and measures representation by checking three criteria:
+- The movie has to have at least 2 [named] female characters
+- Who talk to each other
+- About something other than a man.
+In Hollywood, the majority of A-list actors, directors, and writers are men. This has led to their biases of women tainting the film industry and affecting broader issues such as unequal pay, key roles, and the reinforcement of stereotypes. We all have our favourite female actors or even directors, but few people are aware of the lack of credit they recieve and the major wasting of their greater potential simply due to Hollywood patriarchy.
 
 ## Design Situation:
 **project framing** the problem that is of concern here is the discriminatory actions taken against woman in the movie industry. the key issues on hand here are the pay gaps that has lasted decades and still effects up and coming actress and already established ones. bringing this information to light will show a clear line between how women are discriminated and the actions needed to be taken to fix it.
@@ -67,15 +70,17 @@ Our project Equality on the Big Screen is centered around the idea that female a
 **harms and benefit** The benefits of this research is very wide spreed across not only gender inequality for women but for all people that discriminated against in the movie industry. it isn't clear where the harm might be or if there are any.
 
 ## Research questions:
-* **why do women get payed less then men in movies**:
+* **how profitable is a movie depending on its Bechdel Test score?**
 
 This is a important because being able to understand the reasoning being hind the women not receiving the same pay as men will help us understand where the root of the problem is at and how to fix it
 
-* **why are there less female directors/writers in movies**:
+* **Which of the three test requirements have the highest number of failed results?**
 
 This question is important because it highlights the leadership problem in film making where most decisions are made. Asking question and diving deep into why women are absent from key positions in the industry will help shed light on why men are favored in certain circumstances.
 
-* **how do stereotypes of women in films effect their ability to get key roles**
+* **How Bechdel Test scores have changed between 1950-2021?**
+
+* **Application and Critical Thinking: How do stereotypes of women in films effect their ability to attain key roles?**
 
 This question is important because of the long standing belief that women cant be the star of movies or they have to be he ones being saved, this has long standing effects to young women that grow up thinking thats all they will be able to be. this also as a effects on how directors an writers are picked and also how women are paid
 
@@ -83,8 +88,16 @@ This question is important because of the long standing belief that women cant b
 | The Dataset:|
 |---------------
 
+[Bechdel.csv](https://github.com/info-201a-wi22/final-project-starter-momohamud001/files/7999585/Bechdel.csv)
+
+
 | Expected Implications:|
 |---------------
 
 | Limitations:|
 |---------------
+
+References:
+Yao, Alison Yuhan. “Bechdel Test: Comparing Female Representation Metrics in Movies.” Towards Data Science, 14 Jan. 2022, https://towardsdatascience.com/bechdel-   test-comparing-female-representation-metrics-in-movies-6cbade15010f. 
+
+Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https://www.kaggle.com/alisonyao/movie-bechdel-test-scores. 
