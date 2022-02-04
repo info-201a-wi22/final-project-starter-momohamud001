@@ -62,13 +62,17 @@ In Hollywood, the majority of A-list actors, directors, and writers are men. Thi
 
 ## Design Situation:
 
-##### **Project Framing:** The problem that is of concern here is the discriminatory actions taken against woman in the movie industry. The key issues on hand here are the pay gaps that has lasted decades and still effects up and coming actress and already established ones. Bringing this information to light will show a clear line between how women are discriminated and the actions needed to be taken to fix it.
+##### **Project Framing:** 
+The problem that is of concern here is the discriminatory actions taken against woman in the movie industry. The key issues on hand here are the pay gaps that has lasted decades and still effects up and coming actress and already established ones. Bringing this information to light will show a clear line between how women are discriminated and the actions needed to be taken to fix it.
 
-##### **Human Values:** The human values that are being represented can be quite clear such as sexism that stems from the overall leadership representation of majority men and the hostile work environment that these woman have to endure since this is their work place. Other human values can be the ability to have equal access to things such as power, resources and opportunities. Being fairly treated and respected allows women to be able to have these things at the same rate as men - but that is not the case in the movie industry.
+##### **Human Values:** 
+The human values that are being represented can be quite clear such as sexism that stems from the overall leadership representation of majority men and the hostile work environment that these woman have to endure since this is their work place. Other human values can be the ability to have equal access to things such as power, resources and opportunities. Being fairly treated and respected allows women to be able to have these things at the same rate as men - but that is not the case in the movie industry.
 
-##### **Direct and Indirect Stakeholders:** The direct stakeholders are the women in the Hollywood who are being taken advantage of in all regards by men in power. From all levels in film-making, women of all skills and back grounds more or less are still treated unfairly. The key motivation for women being treated fairly is the fact that this is their vocation and something they enjoy doing. Women in this industry hold the value of wanting to simply be respected by fellow film makers. The indirect stakeholders in our research would be movie goers who watch their favorite actress or director who don't know that they are being discriminated against and might not appear in the movie they watch.
+##### **Direct and Indirect Stakeholders:** 
+The direct stakeholders are the women in the Hollywood who are being taken advantage of in all regards by men in power. From all levels in film-making, women of all skills and back grounds more or less are still treated unfairly. The key motivation for women being treated fairly is the fact that this is their vocation and something they enjoy doing. Women in this industry hold the value of wanting to simply be respected by fellow film makers. The indirect stakeholders in our research would be movie goers who watch their favorite actress or director who don't know that they are being discriminated against and might not appear in the movie they watch.
 
-###### **Harms and Benefits:** The benefits of this research is very wide spreed across not only gender inequality for women but for all people that discriminated against in the movie industry. it isn't clear where the harm might be or if there are any.
+###### **Harms and Benefits:** 
+The benefits of this research is very wide spreed across not only gender inequality for women but for all people that discriminated against in the movie industry. it isn't clear where the harm might be or if there are any.
 
 ## Research questions:
 * **How profitable is a movie depending on its Bechdel Test score?**
@@ -87,16 +91,15 @@ This question is important because of the long standing belief that women cant b
 
 
 ## | The Dataset:|
-|---------------|
 
 [Bechdel.csv](https://github.com/info-201a-wi22/final-project-starter-momohamud001/files/7999585/Bechdel.csv)
 
 
 ## | Expected Implications:|
-|---------------|
+
 
 ## | Limitations:|
-|---------------|
+
 
 ##### References:
 Yao, Alison Yuhan. “Bechdel Test: Comparing Female Representation Metrics in Movies.” Towards Data Science, 14 Jan. 2022, https://towardsdatascience.com/bechdel-   test-comparing-female-representation-metrics-in-movies-6cbade15010f. 
