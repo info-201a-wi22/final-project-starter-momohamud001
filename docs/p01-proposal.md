@@ -35,7 +35,7 @@
 * Mohamed Mohamoud : 2063078443
 * Jaya Valji : 425-229-1797, jvalji@uw.edu
 * Angela Gaither : 425-273-6493, agaither@uw.edu
-*
+* Jainaba Jawara : 425-772-5807, jainaba5@uw.edu
 *
 
 #### INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
@@ -43,12 +43,12 @@
 
 ## Abstract:
 
-This project will examine the (under/mis) representation of female actors in the movie industry. Using the Bechdel Test, we will observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1950-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once these areas have been studied, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to get key roles. 
+This project will examine the (under/mis) representation of female actors in the movie industry. Using the Bechdel Test, we will observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1950-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once these areas have been studied, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to get key roles.
 
 Keywords:
 
-* Representation 
-* Women 
+* Representation
+* Women
 * Bechdel Test
 * Hollywood Movies
 
@@ -62,16 +62,16 @@ In Hollywood, the majority of A-list actors, directors, and writers are men. Thi
 
 ## Design Situation:
 
-##### **Project Framing:** 
+##### **Project Framing:**
 The problem that is of concern here is the discriminatory actions taken against woman in the movie industry. The key issues on hand here are the pay gaps that has lasted decades and still effects up and coming actress and already established ones. Bringing this information to light will show a clear line between how women are discriminated and the actions needed to be taken to fix it.
 
-##### **Human Values:** 
+##### **Human Values:**
 The human values that are being represented can be quite clear such as sexism that stems from the overall leadership representation of majority men and the hostile work environment that these woman have to endure since this is their work place. Other human values can be the ability to have equal access to things such as power, resources and opportunities. Being fairly treated and respected allows women to be able to have these things at the same rate as men - but that is not the case in the movie industry.
 
-##### **Direct and Indirect Stakeholders:** 
+##### **Direct and Indirect Stakeholders:**
 The direct stakeholders are the women in the Hollywood who are being taken advantage of in all regards by men in power. From all levels in film-making, women of all skills and back grounds more or less are still treated unfairly. The key motivation for women being treated fairly is the fact that this is their vocation and something they enjoy doing. Women in this industry hold the value of wanting to simply be respected by fellow film makers. The indirect stakeholders in our research would be movie goers who watch their favorite actress or director who don't know that they are being discriminated against and might not appear in the movie they watch.
 
-###### **Harms and Benefits:** 
+###### **Harms and Benefits:**
 The benefits of this research is very wide spreed across not only gender inequality for women but for all people that discriminated against in the movie industry. it isn't clear where the harm might be or if there are any.
 
 ## Research questions:
@@ -100,6 +100,7 @@ This data set covers the Hollywood films from 1874-2021 and will be used for...I
 
 
 ## | Expected Implications:|
+Our findings have the predicted implication that women are still barred from high positions in the media and entertainment industries. While many people believed that gender equality had evolved, they also recognized that there was still work to be done to make women and men more equal. The data will help educate policymakers who believe that their country is more equal now than it was years ago, but that there is still work to be done on the road to gender equality. This research has far-reaching implications beyond the film business. The study of historical patterns of female representation among actors and other movie-making functions is, in and of itself, a very important subject of research.Our hypothesis is that our research will provide substantial new insights into why women are under-represented in  many areas such as STEM, for example, without the confounding influence of hypothetically weaker female intrinsic abilities or levels of interest in the sector.
 
 
 ## | Limitations:|
@@ -107,8 +108,8 @@ This data set covers the Hollywood films from 1874-2021 and will be used for...I
 
 ##### References:
 Mitchell, Carolee. “Women in Movies - Dataset by Carolee.” Data.world, 30 Nov. 2017, https://data.world/carolee/women-in-movies/workspace/file
-  filename=movies.csv. 
+  filename=movies.csv.
 
-Yao, Alison Yuhan. “Bechdel Test: Comparing Female Representation Metrics in Movies.” Towards Data Science, 14 Jan. 2022, https://towardsdatascience.com/bechdel-   test-comparing-female-representation-metrics-in-movies-6cbade15010f. 
+Yao, Alison Yuhan. “Bechdel Test: Comparing Female Representation Metrics in Movies.” Towards Data Science, 14 Jan. 2022, https://towardsdatascience.com/bechdel-   test-comparing-female-representation-metrics-in-movies-6cbade15010f.
 
-Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https://www.kaggle.com/alisonyao/movie-bechdel-test-scores. 
+Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https://www.kaggle.com/alisonyao/movie-bechdel-test-scores.
