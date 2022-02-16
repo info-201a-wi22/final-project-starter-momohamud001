@@ -1,7 +1,7 @@
 ---
-title: "Female Representation on the Big Screen"
-author: "Jaya Valji, "
-date: "1/22/2022"
+title: Female Representation on the Big Screen
+author: Jaya Valji, 
+date: 2/18/2022
 output: html_document
 ---
 
