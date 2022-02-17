@@ -1,0 +1,22 @@
+---
+title: "Female Representation on the Big Screen"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+source("table.R")
+
+library("knitr")
+```
+## Overview
+
+
+
+```{r join, echo= FALSE}
+kable(join, col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross"))
+
+```
+
+

@@ -5,7 +5,8 @@ library(dplyr)
 library(ggplot2)
 install.packages("plotly")
 library(plotly)
-
+install.packages("knitr")
+library(knitr)
 file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/Bechdel.csv"
 bechdel <- read.csv(file_name, stringsAsFactors = FALSE)
 View(bechdel)
@@ -17,7 +18,7 @@ View(movie)
 
 
 df1 <- bechdel %>%
-select(title, year, rating,imdbid)
+select(title, year, rating, imdbid)
 View(df1)
 
 df2 <- movie %>% 
