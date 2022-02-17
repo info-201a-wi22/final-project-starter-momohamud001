@@ -7,6 +7,7 @@ install.packages("plotly")
 library(plotly)
 install.packages("knitr")
 library(knitr)
+library(tidyverse)
 file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/Bechdel.csv"
 bechdel <- read.csv(file_name, stringsAsFactors = FALSE)
 View(bechdel)
@@ -26,7 +27,8 @@ select(title, year, imdb, test, binary, budget, domgross, intgross)
 View(df2)
 
 join=left_join(df2, df1,by = "title") %>% 
-select(title, imdb, test, binary, budget, rating, domgross, intgross)
-View(join)
+select(title, imdb, test, binary, budget, rating, domgross, intgross) 
+#col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
+#View(join)
 
 
