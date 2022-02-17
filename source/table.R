@@ -21,10 +21,11 @@ select(title, year, rating,imdbid)
 View(df1)
 
 df2 <- movie %>% 
-select(title, year, imdb, test, binary, budget)
+select(title, year, imdb, test, binary, budget, domgross, intgross)
 View(df2)
 
 join=left_join(df2, df1,by = "title") %>% 
-select(title, imdb, test, binary, budget, rating)
+select(title, imdb, test, binary, budget, rating, domgross, intgross)
 View(join)
+
 
