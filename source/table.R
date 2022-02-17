@@ -24,5 +24,7 @@ df2 <- movie %>%
 select(title, year, imdb, test, binary, budget)
 View(df2)
 
-
+join=left_join(df2, df1,by = "title") %>% 
+select(title, imdb, test, binary, budget, rating)
+View(join)
 
