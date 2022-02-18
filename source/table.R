@@ -19,11 +19,11 @@ View(movie)
 
 
 df1 <- bechdel %>%
-select(title, year, rating, imdbid)
+select(title, rating, imdbid) 
 View(df1)
 
 df2 <- movie %>% 
-select(title, year, imdb, test, binary, budget, domgross, intgross)
+select(title, imdb, test, binary, budget, domgross, intgross)
 View(df2)
 
 join=left_join(df2, df1,by = "title") %>% 
