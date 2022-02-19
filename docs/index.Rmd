@@ -109,7 +109,8 @@ When you click the **Knit** button a document will be generated that includes bo
 This chart is showing a stacked bar plot of the ratings over the decades. As movies  become more
 popular over the decades we see a increase in movie production and we see and increase of the ratings. 
 ```{r rating bar graph,echo = FALSE, message=FALSE, warning=FALSE}
-
+source("../source/rating_plot .R")
+rating_year_plot
 source("../source/chart2.R")
 x
 ```
