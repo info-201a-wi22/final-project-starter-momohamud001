@@ -52,10 +52,8 @@ Research Questions:
 
 How profitable is a movie depending on its Bechdel Test score?
 
-<<<<<<< HEAD
-=======
 In the table, you can see that the movies that passed the Bechdel test didn't guarantee that they ended up being profitable. One of the movies Dredd 3D, passed the Bechdel test, and the binary test had a domestic gross of 13,414,714. Another movie called Captain Phillips failed the Bechdel and binary tests but had a domestic gross of 107,136,417. 
->>>>>>> a71bd5fd4ddd0c9851370251120be16fda3c04ac
+
 
 Which of the three test requirements have the highest number of failed results?
 
@@ -99,24 +97,17 @@ Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https:/
 
 ### Summary information
 We have the title of the movies, and we choose them by overlapping our two data frames and selecting them by which titles were in both. Once we joined them, we were able to take the Bechdel tests rating and see what that meant for the movie data frame. When the binary failed, the rating was zero, one and two, but when it passed, it was three. 
-```{r join, echo= FALSE, message=FALSE, warning=FALSE}
-source("../source/summary .R")
-summary_info
+```{r summary, echo= FALSE, message=FALSE, warning=FALSE}
+#source("../source/summary .R")
+#summary_info
 ```
 
 
 ### Table
 
-
-```{r }
-
-<<<<<<< HEAD
-```{r cars}
+```{r table, echo= FALSE, message=FALSE, warning=FALSE}
 source("../source/table.R")
 join
-=======
-
->>>>>>> df39e8882161f24cd4a8b43b2936ede75f77717a
 ```
 
 ## Plots
@@ -126,11 +117,11 @@ popular over the decades we see a increase in movie production and we see and in
 ```{r rating bar graph,echo = FALSE, message=FALSE, warning=FALSE}
 source("../source/rating_plot .R")
 rating_year_plot
-source("../source/chart2.R")
-x
+
 ```
 ```{r chart 2 ,echo = FALSE, message=FALSE, warning=FALSE}
-
+source("../source/chart2.R")
+x
 ```
 
 

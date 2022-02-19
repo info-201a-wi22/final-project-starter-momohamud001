@@ -10,34 +10,27 @@ library(knitr)
 library(tidyverse)
 file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/Bechdel.csv"
 bechdel <- read.csv(file_name, stringsAsFactors = FALSE)
-View(bechdel)
 
 file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/data/movies.csv"
 movie <- read.csv(file_name, stringsAsFactors = FALSE)
 View(movie)
-
-
-
 df1 <- bechdel %>%
-  slice(year == year > 1900) %>%
-  select(title, year, rating, imdbid)
-View(na.omit(df1))
-
+  group_by(rating) %>%
+  mutate(sum(rating)/rating) %>%
+  count(rating) 
+View(df1)
 
 df2 <- movie %>% 
-select(title, imdb, clean_test, binary, budget, domgross, intgross)
+  select(title, test, binary, budget, domgross)
 
-View(df2)
 
-join=left_join(df2, df1,by = "title") %>% 
-select(title, imdb, test, binary, budget, rating, domgross, intgross) 
-<<<<<<< HEAD
+join = left_join(df2, df1,by = "title") %>% 
+select(title, test, binary, budget, rating, domgross) 
+
 col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
-View(na.omit(join))
 
-=======
-#col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
+col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
 #View(join)
-knitr::kable(join)
->>>>>>> a71bd5fd4ddd0c9851370251120be16fda3c04ac
+#knitr::kable(join)
+
 
