@@ -30,5 +30,5 @@ join=left_join(df2, df1,by = "title") %>%
 select(title, imdb, test, binary, budget, rating, domgross, intgross) 
 #col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
 #View(join)
-
+knitr::kable(join)
 
