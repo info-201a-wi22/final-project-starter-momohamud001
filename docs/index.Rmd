@@ -97,17 +97,33 @@ Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https:/
 
 ### Summary information
 We have the title of the movies, and we choose them by overlapping our two data frames and selecting them by which titles were in both. Once we joined them, we were able to take the Bechdel tests rating and see what that meant for the movie data frame. When the binary failed, the rating was zero, one and two, but when it passed, it was three. 
+<<<<<<< HEAD
 ```{r summary, echo= FALSE, message=FALSE, warning=FALSE}
 #source("../source/summary .R")
 #summary_info
+=======
+```{r summary information, echo= FALSE, message=FALSE, warning=FALSE}
+source("../source/summary .R")
+summary_information
+>>>>>>> 03c88264a6e1fa35a4e6ff50226f4a9983816658
 ```
 
 
 ### Table
 
+<<<<<<< HEAD
 ```{r table, echo= FALSE, message=FALSE, warning=FALSE}
 source("../source/table.R")
 join
+=======
+
+
+
+```{r Table}
+
+
+
+>>>>>>> 03c88264a6e1fa35a4e6ff50226f4a9983816658
 ```
 
 ## Plots
