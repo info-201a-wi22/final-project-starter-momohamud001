@@ -2,7 +2,6 @@
 title: "Female Representation on the Big Screen"
 author: "Mohamed Mohamoud, Jaya Valji, Angela Gaither, Fatima Dineh, Jainaba Jawara"
 date: "1/22/2022"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -22,6 +21,7 @@ Abstract:
 This project examines the (under/mis) representation of female actors in the movie industry. Using the Bechdel Test, we observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1950-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once these areas have been studied, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to attain key roles.
 
 Keywords:
+
 Representation
 Women
 Bechdel Test
@@ -37,7 +37,8 @@ In Hollywood, for example, the majority of A-list actors, directors, and writers
 
 Design Situation:
   Project Framing:
-
+  
+  The problem that is of concern here is the discriminatory actions taken against woman in the movie industry. The key issues on hand here are the pay gaps that has lasted decades and still effects up and coming actress and already established ones. Bringing this information to light will show a clear line between how women are discriminated and the actions needed to be taken to fix it.
 
   Human Values:
 
@@ -51,7 +52,10 @@ Research Questions:
 
 How profitable is a movie depending on its Bechdel Test score?
 
+<<<<<<< HEAD
+=======
 In the table, you can see that the movies that passed the Bechdel test didn't guarantee that they ended up being profitable. One of the movies Dredd 3D, passed the Bechdel test, and the binary test had a domestic gross of 13,414,714. Another movie called Captain Phillips failed the Bechdel and binary tests but had a domestic gross of 107,136,417. 
+>>>>>>> a71bd5fd4ddd0c9851370251120be16fda3c04ac
 
 Which of the three test requirements have the highest number of failed results?
 
@@ -119,16 +123,12 @@ popular over the decades we see a increase in movie production and we see and in
 ```{r rating bar graph,echo = FALSE, message=FALSE, warning=FALSE}
 source("../source/rating_plot .R")
 rating_year_plot
+source("../source/chart2.R")
+x
 ```
 ```{r chart 2 ,echo = FALSE, message=FALSE, warning=FALSE}
 
 ```
 
-
-
-```{r chart 3 }
-
-
-```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

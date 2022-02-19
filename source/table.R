@@ -1,11 +1,11 @@
-install.packages("areaplot")
+#install.packages("areaplot")
 library(areaplot)
 library(stringr)
 library(dplyr)
 library(ggplot2)
-install.packages("plotly")
+#install.packages("plotly")
 library(plotly)
-install.packages("knitr")
+#install.packages("knitr")
 library(knitr)
 library(tidyverse)
 file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/Bechdel.csv"
@@ -19,16 +19,25 @@ View(movie)
 
 
 df1 <- bechdel %>%
-select(title, rating, imdbid) 
-View(df1)
+  slice(year == year > 1900) %>%
+  select(title, year, rating, imdbid)
+View(na.omit(df1))
+
 
 df2 <- movie %>% 
-select(title, imdb, test, binary, budget, domgross, intgross)
+select(title, imdb, clean_test, binary, budget, domgross, intgross)
+
 View(df2)
 
 join=left_join(df2, df1,by = "title") %>% 
 select(title, imdb, test, binary, budget, rating, domgross, intgross) 
+<<<<<<< HEAD
+col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
+View(na.omit(join))
+
+=======
 #col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
 #View(join)
 knitr::kable(join)
+>>>>>>> a71bd5fd4ddd0c9851370251120be16fda3c04ac
 
