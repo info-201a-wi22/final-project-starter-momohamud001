@@ -6,7 +6,6 @@ bechdel_coulum <- ncol(Bechdel)
 print(bechdel_row)
 print(bechdel_coulum)
 movies <- read.csv("movies.csv")
-?? movies
 View(movies)
 movies_row <- nrow(movies)
 movies_coulum <- ncol(movies)

@@ -19,8 +19,8 @@ View(movie)
 
 
 df1 <- bechdel %>%
-
-select(title, year, rating, imdbid)
+  slice(year == year > 1900) %>%
+  select(title, year, rating, imdbid)
 View(na.omit(df1))
 
 
@@ -32,6 +32,6 @@ View(df2)
 join=left_join(df2, df1,by = "title") %>% 
 select(title, imdb, test, binary, budget, rating, domgross, intgross) 
 col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
-View(join)
+View(na.omit(join))
 
 
