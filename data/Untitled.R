@@ -1,12 +1,14 @@
 Bechdel <- read.csv("Bechdel.csv")
+?? Bechdel
 View(Bechdel)
 bechdel_row <- nrow(Bechdel)
 bechdel_coulum <- ncol(Bechdel)
 print(bechdel_row)
 print(bechdel_coulum)
 movies <- read.csv("movies.csv")
+?? movies
 View(movies)
 movies_row <- nrow(movies)
 movies_coulum <- ncol(movies)
 print(movies_row)
-print(movies_coulum)
+print(movies_coulum)  
