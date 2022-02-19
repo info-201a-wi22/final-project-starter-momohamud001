@@ -2,12 +2,13 @@
 title: "Female Representation on the Big Screen"
 author: "Mohamed Mohamoud, Jaya Valji, Angela Gaither, Fatima Dineh, Jainaba Jawara"
 date: "1/22/2022"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 chooseCRANmirror(graphics = FALSE,ind = 1)
 knitr::opts_chunk$set(echo = TRUE)
-library("plotly")
+library("ggplot2")
 library("dplyr")
 Bechdel <- read.csv("../data/Bechdel.csv",stringsAsFactors = FALSE)
 ```
@@ -100,13 +101,13 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```
 
-## Including Plots
+## Plots
 
-You can also embed plots, for example:
-
-```{r rating bar graph, echo=FALSE}
-source("../source/rating_plot.R")
-number_of_each_rating
+This chart is showing a stacked bar plot of the ratings over the decades. As movies  become more
+popular over the decades we see a increase in movie production and we see and increase of the ratings. 
+```{r rating bar graph,echo = FALSE, message=FALSE, warning=FALSE}
+source("../source/rating_plot .R")
+rating_year_plot
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
