@@ -84,14 +84,14 @@ Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https:/
 #data_access_test()
 ```
 
-### Example 2: Initialize a variable and then use it
+### Summary information
 ```{r}
 # Example 1: This function was "sourced" above
 #msg <- data_access_test(" Morgan!")
 ```
 
 
-## ABOUT THIS FILE: 
+### Table
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -108,6 +108,16 @@ popular over the decades we see a increase in movie production and we see and in
 ```{r rating bar graph,echo = FALSE, message=FALSE, warning=FALSE}
 source("../source/rating_plot .R")
 rating_year_plot
+```
+```{r chart 2 ,echo = FALSE, message=FALSE, warning=FALSE}
+
+```
+
+
+
+```{r chart 3 }
+
+
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
