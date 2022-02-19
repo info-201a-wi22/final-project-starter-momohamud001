@@ -9,6 +9,9 @@ chooseCRANmirror(graphics = FALSE,ind = 1)
 knitr::opts_chunk$set(echo = TRUE)
 library("ggplot2")
 library("dplyr")
+
+###
+library(knitr)
 Bechdel <- read.csv("../data/Bechdel.csv",stringsAsFactors = FALSE)
 ```
 
@@ -49,12 +52,19 @@ Research Questions:
 
 How profitable is a movie depending on its Bechdel Test score?
 
+<<<<<<< HEAD
+=======
+In the table, you can see that the movies that passed the Bechdel test didn't guarantee that they ended up being profitable. One of the movies Dredd 3D, passed the Bechdel test, and the binary test had a domestic gross of 13,414,714. Another movie called Captain Phillips failed the Bechdel and binary tests but had a domestic gross of 107,136,417. 
+>>>>>>> a71bd5fd4ddd0c9851370251120be16fda3c04ac
 
 Which of the three test requirements have the highest number of failed results?
 
+The binary test had the most number of failed tests because it was a pass or fail, and there was no in-between. The other test had different rankings, and it wasn't just two options like the binary test. 
 
-How have Bechdel Test scores changed between 1950-2021?
 
+How have Bechdel Test scores changed between 1874-2021?
+
+If you look at the table, you can see that from 1874 to 1905, it was mainly zeros, and after 1905 it slowly started to get better. In 2021 you will see a lot of threes, so the Bechdel test is changing from 1874 to 2021.
 
 Application and Critical Thinking: How do stereotypes of women in films affect their ability to attain key roles?
 This question is important because of the long standing belief that women cant be the star of movies unless there's a romantic element or that they have to be the ones being saved. This has long standing effects to young women that grow up thinking that it is all they will ever be. This also has effects on how directors and writers are picked as well as how much women are paid compared to their male counterparts.
@@ -88,20 +98,25 @@ Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https:/
 ```
 
 ### Summary information
-```{r}
-# Example 1: This function was "sourced" above
-#msg <- data_access_test(" Morgan!")
+We have the title of the movies, and we choose them by overlapping our two data frames and selecting them by which titles were in both. Once we joined them, we were able to take the Bechdel tests rating and see what that meant for the movie data frame. When the binary failed, the rating was zero, one and two, but when it passed, it was three. 
+```{r join, echo= FALSE, message=FALSE, warning=FALSE}
+source("../source/summary .R")
+summary_info
 ```
 
 
 ### Table
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+```{r }
 
+<<<<<<< HEAD
 ```{r cars}
+source("../source/table.R")
+join
+=======
 
+>>>>>>> df39e8882161f24cd4a8b43b2936ede75f77717a
 ```
 
 ## Plots

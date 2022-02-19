@@ -31,7 +31,13 @@ View(df2)
 
 join=left_join(df2, df1,by = "title") %>% 
 select(title, imdb, test, binary, budget, rating, domgross, intgross) 
+<<<<<<< HEAD
 col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
 View(na.omit(join))
 
+=======
+#col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
+#View(join)
+knitr::kable(join)
+>>>>>>> a71bd5fd4ddd0c9851370251120be16fda3c04ac
 
