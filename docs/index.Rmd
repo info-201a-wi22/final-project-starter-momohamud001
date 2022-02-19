@@ -1,7 +1,7 @@
 ---
 title: "Female Representation on the Big Screen"
-author: "Mohamed Mohamoud, Jaya Valji, Angela Gaither, Fatima Dineh, Jainaba"
-date: "2/18/2022"
+author: "Mohamed Mohamoud, Jaya Valji, Angela Gaither, Fatima Dineh, Jainaba Jawara"
+date: "1/22/2022"
 ---
 
 ```{r setup, include=FALSE}
@@ -101,8 +101,33 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=TRUE}
-plot(pressure)
+
+
+```{r rating bar graph, echo=FALSE}
+
+install.packages("plotly")
+library("plotly")
+
+number_of_each_rating <- Bechdel %>%
+  group_by(rating) %>%
+  count()
+
+print(number_of_each_rating)
+
+plot_ly(
+  data = number_of_each_rating ,
+  x = ~rating,      
+  y = ~n,        
+  type = "bar",  
+  alpha = .7,    
+  hovertext = "y" 
+) %>%
+  layout(
+    title = "Number of each rating",
+    xaxis = list(title = "Rating"),
+    yaxis = list(title = "Number of rating")
+  )
+
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

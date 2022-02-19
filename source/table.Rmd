@@ -9,8 +9,8 @@ source("table.R")
 
 library("knitr")
 ```
-## Overview
-
+# Overview
+We have the title of the movies, and we choose them by overlapping our two data frames and selecting them by which titles were in both. Once we joined them, we were able to take the Bechdel tests rating and see what that meant for the movie data frame. When the binary failed, the rating was zero, one and two, but when it passed, it was three. 
 
 
 ```{r join, echo= FALSE}
