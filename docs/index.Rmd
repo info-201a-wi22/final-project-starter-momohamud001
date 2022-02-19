@@ -32,22 +32,23 @@ Female Representation on the Big Screen is centered around the idea that female 
 In Hollywood, for example, the majority of A-list actors, directors, and writers are men. This has led to their biases of women tainting the film industry and affecting broader issues such as unequal pay, key roles, and the reinforcement of stereotypes. We all have our favourite female actors or even directors, but few people are aware of the lack of credit they receive and the major waste of potential simply due to Hollywood patriarchy.
 
 Design Situation:
-  Project Framing:
 
+  Project Framing:The social issue this project aims to address is sexism, specifically when it comes to women in films. Sexism is portrayed through misrepresentation of women where stereotypes are maintained through continuous casting, directing, and script patterns. The project uses the Bechdel Test as a means of measuring the lack of representation and showing its changes over the decades. The project highlights how sexism is structural, and embedded within society through media and the capitalistic economy. 
 
-  Human Values:
+  Human Values: The human values connected to this project include equality and equity when it comes to gender representation and treatment. Equality refers to all individuals receiving the same resources in same number, whereas equity refers to when specific circumstances of the individuals are considered and resources are allocated based on need. When it comes to finding a solution to the problem of women's representation, it is important increasingly make opportunities for women the same as men (equality), but also go one step further and think about how these opportunities can be efficiently given by effectively focusing on the interests of women first, not men and women together.   
 
   Direct and Indirect Stakeholders:
-The direct stakeholders are the women in the Hollywood who are being taken advantage of in all regards by men in power. From all levels in film-making, women of all skills and backgrounds are more or less are still treated unfairly. The key motivation for women being treated fairly is the fact that this is their vocation and something they enjoy doing. Women in this industry hold the value of wanting to be respected by fellow filmmakers. The indirect stakeholders in our research would be movie goers who watch their favorite actress or director who don't know that they are being discriminated against and might not appear in the movie they watch.
+The direct stakeholders are the women in Hollywood who are being taken advantage of in all regards by men in power. From all levels in film-making, women of all skills and backgrounds are unfairly represented both economically (if they do not get prominent roles their pay is naturally lessened) as well as being attached to stereotypes that continue gendered ideas of women. The indirect stakeholders in our research would be movie goers and the public who subconsciously make assumptions about women and perpetuate stereotypes in their mind based on the film media they consume. Ultimately, this project and the issue it is addressing can only benefit society as a whole.
 
 Harms and Benefits:
-The benefits of this research will be that we will be able to see the inequality in the movie industry in data. It's easy to say that someone is being discriminated against, but now we will have the data to show the discrimination. The harm that will come will be that male costars will not be paid more but less if their women costars get paid the same as them. This harm is only an if the movie industry changes the pay gap, but if they don't, then no liability will come.
+The benefits of this research will be that we will be able to see the inequality in the movie industry in data. It is easy to say that women are being discriminated against, but now there is data compiled to show hard evidence. Possible harm may come from male co-star frustration or conflict over who will be paid less or more. This harm is unimportant however, and ultimately there are no relavent harms that could come from gender equity.
 
 Research Questions:
 How profitable is a movie depending on its Bechdel Test score?
+Unlike our prediction that the most popular films that did not pass the Bechdel Test would have the higher profit, we found no obvious correlation between profitability and Bechdel Test Score. Many popular films that passed the Bechdel Test were highly profitable and some were also not. For example, Cloudy with a Chance of Meatballs 2 FAILED and had a profit of $78000000 and Despicable Me 2 PASSED with a similar profit of $76000000. 	 
 
 Which of the three test requirements have the highest number of failed results?
-
+The test requirement with the highest number of failed tests was women in the film who simply did not have a speaking role. This was surprising and unfortunate to learn because we had thought women would at least have the chance to talk, but maybe that it would mostly be about men. 
 
 How have Bechdel Test scores changed between 1950-2021?
 
