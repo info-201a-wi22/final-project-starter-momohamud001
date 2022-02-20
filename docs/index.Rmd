@@ -9,14 +9,11 @@ chooseCRANmirror(graphics = FALSE,ind = 1)
 knitr::opts_chunk$set(echo = TRUE)
 library("ggplot2")
 library("dplyr")
-
-###
-library(knitr)
+library("knitr")
 Bechdel <- read.csv("../data/Bechdel.csv",stringsAsFactors = FALSE)
 ```
 
 ## What is this file for?
-
 Abstract:
 This project examines the (under/mis) representation of female actors in the movie industry. Using the Bechdel Test, we observe the trends between how profitable a movie is depending on its Bechdel Test score, which of the three test requirements have the highest number of failed results, and how Bechdel Test scores have changed between 1950-2021. This topic is important because media plays a substantial role in creating and upholding gender norms that get translated into stereotypes embedded in our daily culture. Once these areas have been studied, we can apply it to larger questions begging critical thinking such as how stereotypes of women in films effect their ability to attain key roles.
 
@@ -52,16 +49,11 @@ Research Questions:
 
 How profitable is a movie depending on its Bechdel Test score?
 
-<<<<<<< HEAD
-=======
 In the table, you can see that the movies that passed the Bechdel test didn't guarantee that they ended up being profitable. One of the movies Dredd 3D, passed the Bechdel test, and the binary test had a domestic gross of 13,414,714. Another movie called Captain Phillips failed the Bechdel and binary tests but had a domestic gross of 107,136,417. 
->>>>>>> a71bd5fd4ddd0c9851370251120be16fda3c04ac
 
 Which of the three test requirements have the highest number of failed results?
 
 The binary test had the most number of failed tests because it was a pass or fail, and there was no in-between. The other test had different rankings, and it wasn't just two options like the binary test. 
-
-
 How have Bechdel Test scores changed between 1874-2021?
 
 If you look at the table, you can see that from 1874 to 1905, it was mainly zeros, and after 1905 it slowly started to get better. In 2021 you will see a lot of threes, so the Bechdel test is changing from 1874 to 2021.
@@ -86,36 +78,19 @@ Mitchell, Carolee. “Women in Movies - Dataset by Carolee.” Data.world, 30 No
 Yao, Alison Yuhan. “Bechdel Test: Comparing Female Representation Metrics in Movies.” Towards Data Science, 14 Jan. 2022, https://towardsdatascience.com/bechdel- test-comparing-female-representation-metrics-in-movies-6cbade15010f.
 
 Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https://www.kaggle.com/alisonyao/movie-bechdel-test-scores.
-
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-#source("../source/data_access.R")
-#data_access_test()
-```
-
 ### Summary information
 We have the title of the movies, and we choose them by overlapping our two data frames and selecting them by which titles were in both. Once we joined them, we were able to take the Bechdel tests rating and see what that meant for the movie data frame. When the binary failed, the rating was zero, one and two, but when it passed, it was three. 
 ```{r summary information, echo= FALSE, message=FALSE, warning=FALSE}
 source("../source/summary .R")
 summary_information
 ```
-
-
 ### Table
 In the table, we have incorporated the decades, clean test scores, number of clean tests, ratings, and number of ratings. the clean test is the results from the Bechdel equality test that has forgone peer review to make sure it is accurate and correct. The table gives a snapshot of what was going on throughout the decades. 
 ```{r Table}
 source("../source/table.R")
 join
-
-
 ```
-
 ## Plots
-
 This chart is showing a stacked bar plot of the ratings over the decades. As movies  become more
 popular over the decades we see a increase in movie production and we see and increase of the ratings. 
 ```{r rating bar graph,echo = FALSE, message=FALSE, warning=FALSE}
@@ -126,6 +101,4 @@ rating_year_plot
 source("../source/chart2.R")
 x
 ```
-
-
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
