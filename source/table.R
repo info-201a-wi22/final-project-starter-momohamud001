@@ -19,25 +19,24 @@ View(movie)
 
 
 df1 <- bechdel %>%
-  slice(year == year > 1900) %>%
-  select(title, year, rating, imdbid)
-View(na.omit(df1))
+  mutate(decade= floor(year/10)*10)%>% 
+  group_by(decade) %>% 
+  count(rating)
+names(df1)[names(df1) == "n"] <- "Number of ratings"
 
 
 df2 <- movie %>% 
-select(title, imdb, clean_test, binary, budget, domgross, intgross)
+  mutate(decade= floor(year/10)*10) %>% 
+  group_by(decade) %>% 
+  count(clean_test) 
+names(df2)[names(df2) == "n"] <- "Number of clean test"
 
-View(df2)
 
-join=left_join(df2, df1,by = "title") %>% 
-select(title, imdb, test, binary, budget, rating, domgross, intgross) 
-<<<<<<< HEAD
-col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
-View(na.omit(join))
 
-=======
-#col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
+join=left_join(df2, df1, by = "decade") 
+
 #View(join)
-knitr::kable(join)
->>>>>>> a71bd5fd4ddd0c9851370251120be16fda3c04ac
+
+#knitr::kable(join)
+
 

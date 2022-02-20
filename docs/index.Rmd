@@ -106,12 +106,10 @@ summary_information
 
 
 ### Table
-
-
-
-
+In the table, we have incorporated the decades, clean test scores, number of clean tests, ratings, and number of ratings. the clean test is the results from the Bechdel equality test that has forgone peer review to make sure it is accurate and correct. The table gives a snapshot of what was going on throughout the decades. 
 ```{r Table}
-
+source("../source/table.R")
+join
 
 
 ```
@@ -123,11 +121,10 @@ popular over the decades we see a increase in movie production and we see and in
 ```{r rating bar graph,echo = FALSE, message=FALSE, warning=FALSE}
 source("../source/rating_plot .R")
 rating_year_plot
-source("../source/chart2.R")
-x
 ```
 ```{r chart 2 ,echo = FALSE, message=FALSE, warning=FALSE}
-
+source("../source/chart2.R")
+x
 ```
 
 
