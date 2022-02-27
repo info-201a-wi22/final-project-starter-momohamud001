@@ -1,12 +1,14 @@
 
+setwd("~/Desktop/info201/assignments/final-project-starter-momohamud001")
+getwd()
 
 #install.packages("plotly")
 library("ggplot2")
 library("dplyr")  
 
 
-#source("/Bechdel.csv")
-Bechdel <- read.csv("../data/Bechdel.csv",stringsAsFactors = FALSE)
+
+Bechdel <- read.csv("../data/Bechdel.csv")
 
 
 
@@ -24,4 +26,4 @@ rating_year_plot <- ggplot(ratings_plots, aes(fill=rating, y= Occurrences, x=Dec
   geom_bar(position="stack", stat="identity") +
   ggtitle("Number of Each Rating Per Decade") 
 
-rating_year_plot
+#rating_year_plot
