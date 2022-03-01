@@ -86,7 +86,7 @@ summary_information
 ```
 ### Table
 In the table, we have incorporated the decades, clean test scores, number of clean tests, ratings, and number of ratings. the clean test is the results from the Bechdel equality test that has forgone peer review to make sure it is accurate and correct. The table gives a snapshot of what was going on throughout the decades. 
-```{r Table}
+```{r Table, echo = FALSE, message=FALSE, warning=FALSE}
 source("../source/table.R")
 join
 ```
