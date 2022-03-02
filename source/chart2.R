@@ -13,3 +13,4 @@ x <- ggplot(data =clean_test_ranking, aes(x = "", y = ranking, fill = clean_test
      coord_polar("y")+ 
   ggtitle("Gender equality in moives")
 
+
