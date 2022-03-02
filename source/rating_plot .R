@@ -1,6 +1,4 @@
-
-setwd("~/Desktop/info201/assignments/final-project-starter-momohamud001")
-getwd()
+# Bechdel <- read.csv("../data/Bechdel.csv",stringsAsFactors = FALSE)
 
 #install.packages("plotly")
 library("ggplot2")

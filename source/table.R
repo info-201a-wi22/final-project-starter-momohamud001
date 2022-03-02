@@ -15,7 +15,6 @@ file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-sta
 movie <- read.csv(file_name, stringsAsFactors = FALSE)
 View(movie)
 df1 <- bechdel %>%
-<<<<<<< HEAD
   mutate(decade= floor(year/10)*10)%>% 
   group_by(decade) %>% 
   count(rating)
@@ -28,19 +27,18 @@ df2 <- movie %>%
   count(clean_test) 
 names(df2)[names(df2) == "n"] <- "Number of clean test"
 
-
+View(df2)
 
 join=left_join(df2, df1, by = "decade") 
 
 #View(join)
 
-=======
-  group_by(rating) %>%
+  #group_by(rating) %>%
   mutate(sum(rating)/rating) %>%
   count(rating) 
-View(df1)
+#View(df1)
 
-df2 <- movie %>% 
+df3 <- movie %>% 
   select(title, test, binary, budget, domgross)
 
 
@@ -51,7 +49,6 @@ col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross",
 
 col.names = c("Title", "imdb", "test", "binary", "budget", "rating", "domgross", "intgross")
 #View(join)
->>>>>>> b061cbf1f025c5cc5368fd3417965d39513537fd
 #knitr::kable(join)
 
 
