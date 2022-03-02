@@ -20,10 +20,11 @@ source("../source/chart2.R")
 
 
 ### Table
-
-```{r table, echo= FALSE, message=FALSE, warning=FALSE}
+In the table, we have incorporated the decades, clean test scores, number of clean tests, ratings, and number of ratings. the clean test is the results from the Bechdel equality test that has forgone peer review to make sure it is accurate and correct. The table gives a snapshot of what was going on throughout the decades. 
+```{r Table, echo = FALSE, message=FALSE, warning=FALSE}
 
 #join
+
 ```
 
 ## Plots
