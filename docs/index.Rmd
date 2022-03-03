@@ -15,6 +15,7 @@ We have the title of the movies, and we choose them by overlapping our two data 
 ##setwd("~/Documents/_codeDemo/final-project-starter-momohamud001")
 source("../source/rating_plot .R")
 source("../source/chart2.R")
+source("../source/chart3.R")
 #source("../source/table.R")
 ```
 
@@ -29,23 +30,29 @@ In the table, we have incorporated the decades, clean test scores, number of cle
 
 ## Plots
 
-##Chart 1:
+Chart 1:
 
 This chart is showing a stacked bar plot of the ratings over the decades. As movies  become more
 popular over the decades we see a increase in movie production and we see and increase of the ratings. 
 
-##Chart 2:
-
-This chart shows the amount of gender equality that is present in the movie industry by scoring the 
-movies from a range of ok for a fair representation of women, to "men" when the movie was classified to only having 
-male roles.
 ```{r chart 1 graph,echo = FALSE, message=FALSE, warning=FALSE}
 
 rating_year_plot
 
 ```
-```{r chart 2 ,echo = FALSE, message=FALSE, warning=FALSE}
 
+Chart 2:
+
+This chart shows the amount of gender equality that is present in the movie industry by scoring the 
+movies from a range of ok for a fair representation of women, to "men" when the movie was classified to only having 
+male roles.
+
+```{r chart 2 ,echo = FALSE, message=FALSE, warning=FALSE}
 x
+```
+
+Chart 3:
+```{r chart 3 ,echo = FALSE, message=FALSE, warning=FALSE}
+a
 ```
 

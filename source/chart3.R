@@ -20,7 +20,7 @@ View(movie)
 
 binary_test <- movie %>% 
   group_by(year) %>% 
-  select(year, test)
+  select(year, test, binary)
 #View(binary_test)
 
 #Chart
@@ -28,7 +28,7 @@ binary_test <- movie %>%
 a <- plot_ly(data = binary_test,
              x = ~year,
              y = ~test,
-             color = ~year,
+             color = ~binary,
              type = "scatter"
 ) %>%
   layout(title = "Test from (1970-2013)",
