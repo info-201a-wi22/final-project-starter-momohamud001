@@ -52,6 +52,7 @@ x
 ```
 
 Chart 3:
+For this chart, we used the text on the y-axis, and the test represents ten categories. Notalk, notalk-disagree, nowomen-disagree, nowomen, dubious-disagree, men,men-disagree, and dubious means that there aren't enough women representation, so they failed the test. Ok-disagree, and ok have women representation, so they passed the test. 
 ```{r chart 3 ,echo = FALSE, message=FALSE, warning=FALSE}
 a
 ```
