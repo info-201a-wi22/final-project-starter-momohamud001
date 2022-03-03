@@ -108,6 +108,8 @@ join
 ## Plots
 
 ### Chart 1:
+=======
+Chart 1:
 
 This chart is showing a stacked bar plot of the ratings over the decades. As movies  become more
 popular over the decades we see a increase in movie production and we see and increase of the ratings. 
@@ -118,13 +120,14 @@ rating_year_plot
 
 ```
 
+
 ### Chart 2:
 
 This chart shows the amount of gender equality that is present in the movie industry by scoring the 
 movies from a range of ok for a fair representation of women, to "men" when the movie was classified to only having 
 male roles.
-```{r chart 2 ,echo = FALSE, message=FALSE, warning=FALSE}
 
+```{r chart 2 ,echo = FALSE, message=FALSE, warning=FALSE}
 x
 
 ```
