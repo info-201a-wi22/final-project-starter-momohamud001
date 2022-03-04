@@ -85,7 +85,14 @@ Mitchell, Carolee. “Women in Movies - Dataset by Carolee.” Data.world, 30 No
 
 Yao, Alison Yuhan. “Bechdel Test: Comparing Female Representation Metrics in Movies.” Towards Data Science, 14 Jan. 2022, https://towardsdatascience.com/bechdel- test-comparing-female-representation-metrics-in-movies-6cbade15010f.
 
- Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https://www.kaggle.com/alisonyao/movie-bechdel-test-scores. -->
+Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https://www.kaggle.com/alisonyao/movie-bechdel-test-scores.
+
+Creative Commons. (n.d.). Bechdel Test Movie list. Bechdel Test Movie List. Retrieved February 14, 2022, from https://bechdeltest.com/ 
+
+Seth, R., Tsjeng, Z., Coel, M., Bell, D. V., & Devaney, S. (2020, July 15). Why are films failing the Bechdel test when TV has progressed? British Vogue. Retrieved February 14, 2022, from https://www.vogue.co.uk/arts-and-lifestyle/article/the-bechdel-test 
+
+Viswanathan, G. (2021, July 14). What is the Bechdel test and what is its relevance to today's film industry?, Nightingale. Nightingale. Retrieved February 14, 2022, from https://nightingaledvs.com/what-is-the-bechdel-test-and-what-is-its-relevance-to-todays-film-industry/ 
+ 
 ### Summary information
 We have the title of the movies, and we choose them by overlapping our two data frames and selecting them by which titles were in both. Once we joined them, we were able to take the Bechdel tests rating and see what that meant for the movie data frame. When the binary failed, the rating was zero, one and two, but when it passed, it was three. 
 ```{r summary, echo= FALSE, message=FALSE, warning=FALSE}
