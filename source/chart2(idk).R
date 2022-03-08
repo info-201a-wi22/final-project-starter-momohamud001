@@ -12,7 +12,7 @@ server <- function(input, output) {
     group_by(Decade) %>% 
     count(rating)
   names(ratings_plots)[names(ratings_plots) == "n"] <- "Occurrences"
-  })
+  }
   
   #Plot 
   output$plot <-renderPlot({ ggplot(ratings_plots, aes(Decade, Occurrences, color = rating, frame = Decade)) +
@@ -31,3 +31,4 @@ ui <- basicPage(
 )
 
 shinyApp(ui = ui, server = server)
+

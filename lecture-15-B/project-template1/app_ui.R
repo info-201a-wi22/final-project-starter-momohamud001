@@ -38,7 +38,7 @@ sidebarLayout(
     selectInput(
       inputId = "year_choose",
       label = "Pick the year",
-      choices = list("2013"="2013","2012"="2012","2011"="2011","2010"="2010","2009"="200"),
+      choices = list("2013"="2013","2012"="2012","2011"="2011","2010"="2010","2009"="2009"),
       multiple = TRUE,
       selected = "2013"
     )
@@ -48,6 +48,7 @@ sidebarLayout(
   )
 )
 )
+<<<<<<< HEAD
 third_page <- tabPanel(
   h4("Chart3"),
   p("Charts"),
@@ -72,6 +73,20 @@ third_page <- tabPanel(
  )
   )
 )
+=======
+ third_page <- tabPanel( 
+   h4("Third Page"), 
+   titlePanel("Ratings Over The Decades"), 
+       plotlyOutput(outputId = "Chart2"),
+       p("This chart will show the changes in ratings over the years. Starting from 1870 to 2020 
+       As you move the slider you will be able to see that one, the number of occurrences goes up and we get introduced 
+       to new ratings such as the lighter blue which is equivalent to rating 3. That represents the advancemnets that the 
+       industry has made." , style = "color:black")
+)
+
+
+
+>>>>>>> 9a91c14 (idk)
 # forth_page <- tabPanel(
 #   
 # )
