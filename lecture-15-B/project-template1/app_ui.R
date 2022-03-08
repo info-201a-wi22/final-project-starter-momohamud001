@@ -8,45 +8,58 @@
 #
 
 library(shiny)
+library("dplyr")
+library("tidyverse")
+library("stringr")
+library("plotly")
+library("shinyWidgets")
 
-source("tabs/tab_panel_intro.R")
-source("tabs/tab_panel_chart1.R")
-source("tabs/tab_panel_chart2.R")
-source("tabs/tab_panel_chart3.R")
-source("tabs/tab_panel_summary.R")
-source("tabs/tab_panel_report.R")
-
-ui <- navbarPage(
-  title = "Project Example",
-  position = "fixed-top",
-
-  # A simple header
-  header = list(
-    tags$style(type = "text/css", "body {padding-top: 70px;}"),
-    hr(),
-    HTML("... Project Header... "),
-    hr()
-  ),
-
-  # A simple footer
-  footer = list(
-    tags$style(type = "text/css", "body {padding-top: 70px;}"),
-    hr(),
-    HTML("... Project Footer ... "),
-    hr()
-  ),
-
-  # The project introduction
-  tab_panel_intro,
-
-  # The three charts
-  tab_panel_chart1,
-  tab_panel_chart2,
-  tab_panel_chart3,
-
-  # The project summary
-  tab_panel_summary,
-
-  # The project report
-  tab_panel_report
+first_page <- tabPanel(
+  h4("page 1")
 )
+
+second_page <- tabPanel(
+h4("second page"),
+sidebarLayout(
+  sidebarPanel(
+    selectInput(
+      inputId = "test_result",
+      label = "Pick the year",
+      choices = list("ok" = "ok","men" = "men","notalk" = "notalk",
+                     "dubious"= "dubious","nowomen" = "nowomen"),
+      multiple = TRUE,
+      selected = "men"
+      # label = "choose a result to display",
+      # choices = list("ok" = "ok","men" = "men","notalk" = "notalk",
+      #                "dubious"= "dubious","nowomen" = "nowomen",
+      #                multiple = TRUE,
+      #                selected = "men")
+    ),
+    selectInput(
+      inputId = "year_choose",
+      label = "Pick the year",
+      choices = list("2013"="2013","2012"="2012","2011"="2011","2010"="2010","2009"="200"),
+      multiple = TRUE,
+      selected = "2013"
+    )
+  ),
+  mainPanel(
+    plotlyOutput(outputId = "Chart1")
+  )
+)
+)
+# third_page <- tabPanel(
+#   
+# )
+# forth_page <- tabPanel(
+#   
+# )
+# fith_page <- tabPanel(
+#   
+# )
+ui <- navbarPage(
+  tags$title("movie project"),
+ first_page,
+ second_page
+)
+
