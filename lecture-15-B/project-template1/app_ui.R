@@ -48,7 +48,6 @@ sidebarLayout(
   )
 )
 )
-<<<<<<< HEAD
 third_page <- tabPanel(
   h4("Chart3"),
   p("Charts"),
@@ -73,9 +72,8 @@ third_page <- tabPanel(
  )
   )
 )
-=======
- third_page <- tabPanel( 
-   h4("Third Page"), 
+ fourth_page <- tabPanel( 
+   h4("Fourth Page"), 
    titlePanel("Ratings Over The Decades"), 
        plotlyOutput(outputId = "Chart2"),
        p("This chart will show the changes in ratings over the years. Starting from 1870 to 2020 
@@ -86,7 +84,7 @@ third_page <- tabPanel(
 
 
 
->>>>>>> 9a91c14 (idk)
+
 # forth_page <- tabPanel(
 #   
 # )
@@ -97,6 +95,7 @@ ui <- navbarPage(
   tags$title("movie project"),
  first_page,
  second_page, 
- third_page
+ third_page,
+ fourth_page
 )
 
