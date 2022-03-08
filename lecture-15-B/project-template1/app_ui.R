@@ -48,9 +48,27 @@ sidebarLayout(
   )
 )
 )
-# third_page <- tabPanel(
-#   
-# )
+third_page <- tabPanel(
+  h4("Chart3"),
+  p("Charts"),
+  
+  
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "binary_type",
+        label = "Pick a chart",
+        choices = c("Binary", "Test"),
+        
+      ) 
+    ),
+    mainPanel(
+      h3("Chart"),
+      plotlyOutput(outputId = "movie"),
+      textOutput("text"),   
+ )
+  )
+)
 # forth_page <- tabPanel(
 #   
 # )
@@ -60,6 +78,7 @@ sidebarLayout(
 ui <- navbarPage(
   tags$title("movie project"),
  first_page,
- second_page
+ second_page, 
+ third_page
 )
 
