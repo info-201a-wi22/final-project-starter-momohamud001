@@ -25,20 +25,21 @@ server <- function(input, output) {
 
     output$Chart1 <- renderPlotly({
       Chart1 <- clean_test_ranking  %>%
-        filter(year %in% input$year_choose) %>%
-        filter(clean_test %in% input$test_result) %>%
-        drop_na()
+        filter(year %in% input$year_choose) %>% 
+        group_by(clean_test) %>% 
+        filter(clean_test %in% input$test_result) %>% 
+        select(year,clean_test,n)
       
-      x <- ggplot(data = Chart1 )+
-        geom_col(mapping = aes(x=year,y=clean_test))
+      # x <- ggplot(data = Chart1 )+
+      #   geom_col(mapping = aes(x=year,y=clean_test))
 
-      # x <- plot_ly(clean_test_ranking, labels = ~clean_test, values = ~year, type = 'pie')
-      # x <- x %>%
-      #   layout(title = 'Test results',
-      #          xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
-      #          yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
-
-      return(x)
+      Test_result <- plot_ly(Chart1, labels = ~clean_test, values = ~n, type = 'pie')
+      Test_result <- Test_result %>% 
+        layout(title = 'Test_result',
+               xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+               yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+      
+      return(Test_result)
     }
 
     )
@@ -72,4 +73,4 @@ server <- function(input, output) {
 #   }
 #   
 #   )
-
+# filter(clean_test %in% input$test_result) %>%

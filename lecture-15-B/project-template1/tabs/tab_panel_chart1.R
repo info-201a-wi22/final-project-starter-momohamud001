@@ -54,12 +54,12 @@ sidebarPanel(
     multiple = FALSE,
     selected = "2013"
   )
-),
+)
 mainPanel(
   h2("Ranking resluts per year"),
   p("This interactive chart for gender inequality on the moive screen will display the n ammount 
         of each result every year."),
   plotlyOutput(outputId = "Chart1")
 )
-)
+
 
