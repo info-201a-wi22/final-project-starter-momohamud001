@@ -50,9 +50,42 @@ sidebarLayout(
 )
 )
 
+
 # third_page <- tabPanel(
 #   
 # )
+
+third_page <- tabPanel(
+  h4("Chart3"),
+  p("Charts"),
+  
+  
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "binary_type",
+        label = "Pick a chart",
+        choices = c("Binary", "Test"),
+        
+      ) 
+    ),
+    mainPanel(
+      h3("Chart", style = "color:red"),
+      plotlyOutput(outputId = "movie"),
+      br(),
+      tags$p(strong("The binary chart shows that nowomen in movies started in 1977 
+                    but had women in movies from 1970 until 2013. Both charts show 
+                    that women have been in movies but also haven't been in movies, 
+                    and even if women are in the film, it isn't a guarantee that they 
+                    will talk. The test chart shows that women only have two lines of 
+                    passes and eight lines of fails. In both charts, you can see that 
+                    there isn't enough female representation in the movie industry."
+                    , style= "color:black")) ,
+      br(),
+ )
+  )
+)
+
 # forth_page <- tabPanel(
 #   
 # )
@@ -62,6 +95,7 @@ sidebarLayout(
 ui <- navbarPage(
   tags$title("movie project"),
  first_page,
- second_page
+ second_page, 
+ third_page
 )
 

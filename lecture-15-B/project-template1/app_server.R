@@ -18,6 +18,9 @@ server <- function(input, output) {
     file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/data/movies.csv"
     movie <- read.csv(file_name, stringsAsFactors = FALSE)
 
+    
+#Chart1
+    
     clean_test_ranking <- movie %>%
       group_by(year) %>%
       count(clean_test)
@@ -29,9 +32,6 @@ server <- function(input, output) {
         group_by(clean_test) %>% 
         filter(clean_test %in% input$test_result) %>% 
         select(year,clean_test,n)
-      
-      # x <- ggplot(data = Chart1 )+
-      #   geom_col(mapping = aes(x=year,y=clean_test))
 
       Test_result <- plot_ly(Chart1, labels = ~clean_test, values = ~n, type = 'pie')
       Test_result <- Test_result %>% 
@@ -43,6 +43,34 @@ server <- function(input, output) {
     }
 
     )
+  
+    
+#Chart2  
+    
+    output$movie <- renderPlotly({
+      binary_test <- movie %>% 
+        select(year, clean_test, test, binary)
+      
+      if (input$binary_type == "Binary")
+        h <- ggplot(binary_test) + 
+          geom_line(mapping =  aes(x = year, y= clean_test, colour = clean_test))+
+          ggtitle("Test from (1970-2013)")
+      
+      else 
+        
+        h <- plot_ly(data = binary_test,
+                     x = ~year,
+                     y = ~test,
+                     color = ~binary,
+                     type = "scatter"
+        ) %>%
+          layout(title = "Fail or Pass from (1970-2013)",
+                 xaxis = list(title ="Year"),
+                 yaxis = list(title ="Test")
+          )
+      return(h)
+      
+    })
   
 }
 
