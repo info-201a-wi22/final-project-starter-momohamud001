@@ -106,25 +106,39 @@ third_page <- tabPanel(
        tags$p(strong("This chart will show the changes in ratings over the years. Starting from 1870 to 2020 
        As you move the slider you will be able to see that one, the number of occurrences goes up and we get introduced 
        to new ratings such as the lighter blue which is equivalent to rating 3. That represents the advancemnets that the 
-       industry has made." , style = "color:black", style = "font-size:24px;"))
+       industry has made." , style = "color:black", style = "font-size:30px;"))
 )
 
 fifth_page <- tabPanel(
-  h4("Summary"))
+  h4("Summary"),
+  titlePanel("3 Main Take aways"),
+  tags$ol(
+    tags$li("From our data, women have been in movies from 1874 to 2021, which has slowly 
+    increased over the years. 
+    The rating shows that after 2000 it had a drastic 
+    increase",style = "font-size:30px;"),
+    br(),
+    tags$li("In films the fail or pass, the women's only had two passing lines from 
+    1970 to 2013, but the men had eight lines.",style = "font-size:30px;"),
+    br(),
+    tags$li("Overall our data show that women are 
+    being represented more and given more opportunities but not as many as men, but 
+    it's getting better.",style = "font-size:30px;" )
+    ),
+  img(src = "black-panther.jpg", width = "1500", height = "600", alt = "Bechdel Test 3 Criteria")
+  )
+  
 
 
 
 
 sixth_page <- tabPanel(
   h4("Report"),
-  fluidRow(
-    column(
-      12,
-      uiOutput('markdown')
+  uiOutput('markdown')
   )
-  )
-)
   
+
+
 ui <- navbarPage(
   tags$title("movie project"),
  first_page,
