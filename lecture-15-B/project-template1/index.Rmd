@@ -80,6 +80,8 @@ We have addressed and discussed the film industry's lack of female representatio
 We would like to acknowledge the team-work and communication this project took on all of our parts and the learning curve we experienced by working remotely with new applications.
 
 ### References: 
+Creative Commons. (n.d.). Bechdel Test Movie list. Bechdel Test Movie List. Retrieved February 14, 2022, from https://bechdeltest.com/ 
+
 Mitchell, Carolee. “Women in Movies - Dataset by Carolee.” Data.world, 30 Nov. 2017, https://data.world/carolee/women-in-movies/workspace/file filename=movies.csv.
 
 Smith, R., &amp; Srravya. (2017). Bechdel Test. Research Blog. Duke . Retrieved March 8, 2022, from https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fresearchblog.duke.edu%2F2017%2F08%2F04%2Fsizing-up-hollywoods-gender-gap%2F&amp;psig=AOvVaw0tqif89OEXHHYLwE7WGgmQ&amp;ust=1646942828487000&amp;source=images&amp;cd=vfe&amp;ved=0CAgQjRxqFwoTCPi_naTqufYCFQAAAAAdAAAAABAD. 
@@ -87,8 +89,6 @@ Smith, R., &amp; Srravya. (2017). Bechdel Test. Research Blog. Duke . Retrieved 
 Yao, Alison Yuhan. “Bechdel Test: Comparing Female Representation Metrics in Movies.” Towards Data Science, 14 Jan. 2022, https://towardsdatascience.com/bechdel- test-comparing-female-representation-metrics-in-movies-6cbade15010f.
 
 Yao, Alison Yuhan. “Movie Bechdel Test Scores.” Kaggle, 2 Jan. 2022, https://www.kaggle.com/alisonyao/movie-bechdel-test-scores.
-
-Creative Commons. (n.d.). Bechdel Test Movie list. Bechdel Test Movie List. Retrieved February 14, 2022, from https://bechdeltest.com/ 
 
 Seth, R., Tsjeng, Z., Coel, M., Bell, D. V., & Devaney, S. (2020, July 15). Why are films failing the Bechdel test when TV has progressed? British Vogue. Retrieved February 14, 2022, from https://www.vogue.co.uk/arts-and-lifestyle/article/the-bechdel-test 
 
