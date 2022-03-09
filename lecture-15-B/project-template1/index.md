@@ -5,11 +5,7 @@ Affiliation: "INFO-201: Technical Foundations of Informatics - the Information S
 date: "1/22/2022"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 
-library("dplyr")
-```
 # Report
 
 ### Abstract:
@@ -35,7 +31,7 @@ This project examines the (under/mis) representation of female actors in the mov
 
 ### Design Situation:
 
-<<<<<<< HEAD
+
 Design Situation:
 
   Project Framing:The social issue this project aims to address is sexism, specifically when it comes to women in films. Sexism is portrayed through misrepresentation of women where stereotypes are maintained through continuous casting, directing, and script patterns. The project uses the Bechdel Test as a means of measuring the lack of representation and showing its changes over the decades. The project highlights how sexism is structural, and embedded within society through media and the capitalistic economy. 
@@ -47,7 +43,7 @@ The direct stakeholders are the women in Hollywood who are being taken advantage
 
 Harms and Benefits:
 The benefits of this research will be that we will be able to see the inequality in the movie industry in data. It is easy to say that women are being discriminated against, but now there is data compiled to show hard evidence. Possible harm may come from male co-star frustration or conflict over who will be paid less or more. This harm is unimportant however, and ultimately there are no relavent harms that could come from gender equity.
-=======
+
 ### Project Framing: 
 
 The problem that is of concern here is the discriminatory actions taken against woman in the movie industry. The key issues on hand here are the pay gaps that has lasted decades and still effects up and coming actress and already established ones. Bringing this information to light will show a clear line between how women are discriminated and the actions needed to be taken to fix it. -->
@@ -62,7 +58,7 @@ The direct stakeholders are the women in the Hollywood who are being taken advan
 
 ### Harms and Benefits:
 The benefits of this research will be that we will be able to see the inequality in the movie industry in data. It's easy to say that someone is being discriminated against, but now we will have the data to show the discrimination. The harm that will come will be that male costars will not be paid more but less if their women costars get paid the same as them. This harm is only an if the movie industry changes the pay gap, but if they don't, then no liability will come.
->>>>>>> 16c95615ed8ec9dd24c607eb8c4ef4d9c0f290d9
+
 
 ### Research Questions:
 
@@ -75,11 +71,11 @@ In the table, you can see that the movies that passed the Bechdel test didn't gu
 Which of the three test requirements have the highest number of failed results?
 <<<<<<< HEAD
 The test requirement with the highest number of failed tests was women in the film who simply did not have a speaking role. This was surprising and unfortunate to learn because we had thought women would at least have the chance to talk, but maybe that it would mostly be about men. 
-=======
+
 
 The binary test had the most number of failed tests because it was a pass or fail, and there was no in-between. The other test had different rankings, and it wasn't just two options like the binary test
 
->>>>>>> 16c95615ed8ec9dd24c607eb8c4ef4d9c0f290d9
+
 
 How have Bechdel Test scores changed between 1874-2021?
 
@@ -112,59 +108,4 @@ Seth, R., Tsjeng, Z., Coel, M., Bell, D. V., & Devaney, S. (2020, July 15). Why 
 
 Viswanathan, G. (2021, July 14). What is the Bechdel test and what is its relevance to today's film industry?, Nightingale. Nightingale. Retrieved February 14, 2022, from https://nightingaledvs.com/what-is-the-bechdel-test-and-what-is-its-relevance-to-todays-film-industry/ 
  
-### Summary information
-We have the title of the movies, and we choose them by overlapping our two data frames and selecting them by which titles were in both. Once we joined them, we were able to take the Bechdel tests rating and see what that meant for the movie data frame. When the binary failed, the rating was zero, one and two, but when it passed, it was three. 
-```{r summary, echo= FALSE, message=FALSE, warning=FALSE}
-##setwd("~/Documents/_codeDemo/final-project-starter-momohamud001")
-source("../source/rating_plot .R")
-source("../source/chart2.R")
-source("../source/chart3.R")
-source("../source/table.R")
-```
-
-
-### Table
-In the table, we have incorporated the decades, clean test scores, number of clean tests, ratings, and number of ratings. the clean test is the results from the Bechdel equality test that has forgone peer review to make sure it is accurate and correct. The table gives a snapshot of what was going on throughout the decades. 
-```{r Table, echo = FALSE, message=FALSE, warning=FALSE}
-
-join
-
-```
-
-## Plots
-
-### Chart 1:
-=======
-Chart 1:
-
-This chart is showing a stacked bar plot of the ratings over the decades. As movies  become more
-popular over the decades we see a increase in movie production and we see and increase of the ratings. 
-
-```{r chart 1 graph,echo = FALSE, message=FALSE, warning=FALSE}
-
-rating_year_plot
-
-```
-
-
-### Chart 2:
-
-This chart shows the amount of gender equality that is present in the movie industry by scoring the 
-movies from a range of ok for a fair representation of women, to "men" when the movie was classified to only having 
-male roles.
-
-```{r chart 2 ,echo = FALSE, message=FALSE, warning=FALSE}
-x
-
-```
-
-### Chart 3:
-
-For this chart, we used the text on the y-axis, and the test represents ten categories. Notalk, notalk-disagree, nowomen-disagree, nowomen, dubious-disagree, men,men-disagree, and dubious means that there aren't enough women representation, so they failed the test. Ok-disagree, and ok have women representation, so they passed the test. 
-
-```{r chart 3 ,echo = FALSE, message=FALSE, warning=FALSE}
-
-a
-
-```
 

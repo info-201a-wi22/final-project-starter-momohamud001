@@ -107,6 +107,8 @@ output$Chart2 <- renderPlotly({
 
   return(Chart2)
 })
+output$markdown <- renderUI({
+  HTML(markdown::markdownToHTML(knit('index.Rmd', quiet = TRUE)))
+  })
 
 }
-
