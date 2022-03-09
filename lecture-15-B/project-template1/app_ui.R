@@ -15,9 +15,15 @@ library("plotly")
 library("shinyWidgets")
 
 first_page <- tabPanel(
-  h4("page 1")
-)
-
+  h4("page 1"),
+  titlePanel("Introduction"),
+  p("What is your favorite movie? Have you ever observed the role of women (or if there are any!) in the film? This report will walk you through how and what to consider when viewing your next movie
+    through the lens of the Bechdel Test. As we know, patriarchy, gender stereotypes, and discrimination against women plague our society to this day. Media, such as the content being mass produced through
+    the film industry, plays an enormous role in all of our lives because films are a critical part in our culture. They reflect, give feedback on, and endorse social norms that are sustained by supply,
+    demand, and behavior of that people that consume the media. As you go through this report and learn how the Bechdel Test can be used as a way to study the patterns of misrepresentation of females in the
+    movie industry, think about how you too, can be a more active and cognizant viewer of your next films!"))
+<img src = "BechdelTest.png", width = "500", height = "600", alt = "Bechdel Test 3 Criteria">
+  
 second_page <- tabPanel(
 h4("second page"),
 sidebarLayout(
