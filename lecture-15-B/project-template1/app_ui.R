@@ -88,13 +88,11 @@ third_page <- tabPanel(
        industry has made." , style = "color:black")
 )
 
+fifth_page <- tabPanel("Summary", verbatimTextOutput("Summary"),
+              titlePanel("Takeaways"),
+              p(""))
 
-
-
-# forth_page <- tabPanel(
-#   
-# )
-fith_page <- tabPanel("Report", verbatimTextOutput("Report"),
+sixth_page <- tabPanel("Report", verbatimTextOutput("Report"),
   titlePanel("Female Representation on the Big Screen"),
   p("Authors: Mohamed Mohamoud, Jaya Valji, Angela Gaither, Fatima Dineh, Jainaba Jawara"),
   p("Affiliation: INFO-201: Technical Foundations of Informatics - The Information School - University of Washington"),
@@ -167,9 +165,10 @@ ui <- navbarPage(
  second_page, 
  third_page,
 <<<<<<< HEAD
- fifth_page
+ fifth_page,
 =======
- fourth_page
+ fourth_page,
 >>>>>>> ae8c082d21d2c06b689d906a37b25bcde23c5a6d
-)
+sixth_page
+ )
 
