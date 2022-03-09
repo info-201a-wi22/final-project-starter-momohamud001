@@ -1,31 +1,44 @@
 # setwd("~/Desktop/info201/assignments/final-project-starter-momohamud001")
 
-
-setwd("~/Desktop/info201/assignments/final-project-starter-momohamud001/")
-
-setwd("~/Desktop/info201/assignments/final-project-starter-momohamud001/data")
-
-source("./data/Bechdel.csv")
-source("/Bechdel.csv")
 Bechdel <- read.csv("Bechdel.csv",stringsAsFactors = FALSE)
-
-View(Bechdel)
-
-summary_info <- list()
-summary_info$num_observations <- nrow(Bechdel)
-summary_info$max_value <-Bechdel %>%
-  filter(rating == max(rating, na.rm = T)) %>%
-  select(rating)
-summary_info$min_value <- Bechdel %>%
-  filter(rating == min(rating, na.rm = T)) %>%
-  select(rating)
-summary_info$mean_of_data <- rowMeans(Bechdel[c(5)])
-  
-summary_info$number_of_0_ratings <- length(which(Bechdel == 0))   
-summary_info$number_of_1_ratings <- length(which(Bechdel == 1)) 
-summary_info$number_of_2_ratings <- length(which(Bechdel == 2))
-summary_info$number_of_3_ratings <- length(which(Bechdel == 3)) 
 
 knitr::kable(summary_info)
 print(mean_of_data)
 
+nineteenth_century <- Bechdel   %>% 
+  filter(year >="1800",year <= "1899") %>%
+  pull(rating)
+avg_rating_19 <- mean(nineteenth_century, na.rm = TRUE) 
+print(avg_rating_19)
+
+twentyth_century <- Bechdel %>% 
+  filter(year >="1900",year <= "1999") %>%
+  pull(rating)
+avg_rating_20 <- mean(twentyth_century, na.rm = TRUE) 
+print(avg_rating_20)
+
+century_21 <- Bechdel %>% 
+  filter(year >="2000",year <= "2022") %>%
+  pull(rating)
+avg_21 <- mean(century_21, na.rm = TRUE) 
+print(avg_21)
+
+median_during_19th<-  Bechdel %>% 
+  filter(year >="1800",year <= "1899") %>% 
+  pull(rating) 
+median_in_19th <- median(median_during_19th)
+
+
+median_during_20th<-  Bechdel %>% 
+  filter(year >="1900",year <= "1999") %>% 
+  pull(rating) 
+median_in_20_th <- median(median_during_20th)
+
+summary_info <- list(
+  " Average for 18th century to 19th century" = avg_rating_19 ,
+  " Average for 19th century to 20th century" =  avg_rating_20,
+  " Average in the 21st century" = avg_21,
+  "Median in 19th Century" = median_in_19th ,
+  "Median in 19th Century" = median_during_20th, 
+
+)
