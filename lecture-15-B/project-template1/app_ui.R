@@ -17,7 +17,7 @@ library("markdown")
 library(knitr)
 
 first_page <- tabPanel(
-  h4("page 1"),
+  h4("Introduction"),
   titlePanel("Introduction"),
   p("What is your favorite movie? Have you ever observed the role of women (or if there are any!) in the film? This report will walk you through how and what to consider when viewing your next movie
     through the lens of the Bechdel Test. As we know, patriarchy, gender stereotypes, and discrimination against women plague our society to this day. Media, such as the content being mass produced through
@@ -27,7 +27,7 @@ first_page <- tabPanel(
   img(src = "BechdelTest.png", width = "1500", height = "600", alt = "Bechdel Test 3 Criteria"))
   
 second_page <- tabPanel(
-h4("Second page"),
+h4("Chart 1"),
 setBackgroundColor(
   color = c("#F7FBFF", "#2171B5"),
   gradient = "linear",
@@ -67,7 +67,7 @@ sidebarLayout(
 
 
 third_page <- tabPanel(
-  h4("Third page"),
+  h4("Chart 2"),
   p("Charts"),
   
   
@@ -100,7 +100,7 @@ third_page <- tabPanel(
 
 
  fourth_page <- tabPanel( 
-   h4("Fourth Page"), 
+   h4("Chart 3"), 
    titlePanel("Ratings Over The Decades"), 
        plotlyOutput(outputId = "Chart2"),
        tags$p(strong("This chart will show the changes in ratings over the years. Starting from 1870 to 2020 
