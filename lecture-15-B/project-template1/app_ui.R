@@ -15,11 +15,17 @@ library("plotly")
 library("shinyWidgets")
 
 first_page <- tabPanel(
-  h4("page 1")
+  h4("First page")
 )
 
+
 second_page <- tabPanel(
-h4("second page"),
+h4("Second page"),
+setBackgroundColor(
+  color = c("#F7FBFF", "#2171B5"),
+  gradient = "linear",
+  direction = "bottom"
+),
 sidebarLayout(
    sidebarPanel(
     selectInput(
@@ -36,27 +42,25 @@ sidebarLayout(
       choices = list("2013"="2013","1970"="1970","1971"="1971","1990"="1990","2000"="2000"
                      ,"2005"="2005","2010"="2010"),
       multiple = FALSE,
+
+
       selected = "2013"
     )
   ),
   mainPanel(
-    h2("Gender equality over the years"),
-    p("This interative chart displays the test results of the countries
+    h2("Gender equality over the years",style = "color:red"),
+    tags$p(em(strong("This interative chart displays the test results of the countries
                  selected. The area occupied form each reslut repersent how much each test appeared compared to 
                  other resluts. the legend on the side color codes each result displayed. Additionally the year 
-                 choosen by the user is what year the chart is pulling from"),
+                 choosen by the user is what year the chart is pulling from", style = "color:black"))),
     plotlyOutput(outputId = "Chart1")
   )
 )
 )
 
 
-# third_page <- tabPanel(
-#   
-# )
-
 third_page <- tabPanel(
-  h4("Chart3"),
+  h4("Third page"),
   p("Charts"),
   
   
@@ -70,7 +74,7 @@ third_page <- tabPanel(
       ) 
     ),
     mainPanel(
-      h3("Chart", style = "color:red"),
+      h3("Binary vs Test", style = "color:red"),
       plotlyOutput(outputId = "movie"),
       br(),
       tags$p(strong("The binary chart shows that nowomen in movies started in 1977 
@@ -86,9 +90,20 @@ third_page <- tabPanel(
   )
 )
 
-# forth_page <- tabPanel(
-#   
-# )
+
+
+ fourth_page <- tabPanel( 
+   h4("Fourth Page"), 
+   titlePanel("Ratings Over The Decades"), 
+       plotlyOutput(outputId = "Chart2"),
+       tags$p(strong("This chart will show the changes in ratings over the years. Starting from 1870 to 2020 
+       As you move the slider you will be able to see that one, the number of occurrences goes up and we get introduced 
+       to new ratings such as the lighter blue which is equivalent to rating 3. That represents the advancemnets that the 
+       industry has made." , style = "color:black", style = "font-size:24px;"))
+)
+
+
+
 # fith_page <- tabPanel(
 #   
 # )
@@ -96,6 +111,7 @@ ui <- navbarPage(
   tags$title("movie project"),
  first_page,
  second_page, 
- third_page
+ third_page,
+ fourth_page
 )
 

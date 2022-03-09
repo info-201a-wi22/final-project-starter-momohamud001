@@ -13,14 +13,20 @@ library("tidyverse")
 library("stringr")
 library("plotly")
 library("shinyWidgets")
-
-server <- function(input, output) {
-    file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/data/movies.csv"
-    movie <- read.csv(file_name, stringsAsFactors = FALSE)
+file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/data/movies.csv"
+file_bechdel <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/data/Bechdel.csv"
 
     
 #Chart1
     
+
+movie <- read.csv(file_name, stringsAsFactors = FALSE)
+
+
+Bechdel <- read.csv(file_bechdel, stringsAsFactors = FALSE)
+
+server <- function(input, output) {
+
     clean_test_ranking <- movie %>%
       group_by(year) %>%
       count(clean_test)
@@ -28,6 +34,7 @@ server <- function(input, output) {
 
     output$Chart1 <- renderPlotly({
       Chart1 <- clean_test_ranking  %>%
+
         filter(year %in% input$year_choose) %>% 
         group_by(clean_test) %>% 
         filter(clean_test %in% input$test_result) %>% 
@@ -40,12 +47,21 @@ server <- function(input, output) {
                yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
       
       return(Test_result)
+      
+        filter(year %in% input$year_choose) %>%
+        filter(clean_test %in% input$test_result) %>%
+        drop_na()
+      
+      x <- ggplot(data = Chart1 )+
+        geom_col(mapping = aes(x=year,y=clean_test))
+
+      return(x)
     }
 
     )
   
     
-#Chart2  
+#Chart 2  
     
     output$movie <- renderPlotly({
       binary_test <- movie %>% 
@@ -72,33 +88,25 @@ server <- function(input, output) {
       
     })
   
+
+
+      
+#Chart 3
+ratings_plots <- Bechdel %>%
+  mutate(Decade = floor(year/10)*10) %>%
+  group_by(Decade) %>%
+  count(rating)
+
+
+names(ratings_plots)[names(ratings_plots) == "n"] <- "Occurrences"
+
+output$Chart2 <- renderPlotly({
+  Chart2 <- ggplot(ratings_plots, aes(Decade, Occurrences, color = rating, frame = Decade)) +
+    geom_point(aes(size = Occurrences)) +
+    geom_smooth(se = FALSE, method = "lm")
+
+  return(Chart2)
+})
+
 }
 
-
-
-# file_name <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-momohamud001/main/data/movies.csv"
-# movie <- read.csv(file_name, stringsAsFactors = FALSE)
-# View(movie)
-# 
-# clean_test_ranking <- movie %>%
-#   group_by(year) %>%
-#   count(clean_test)
-# View(clean_test_ranking)
-# 
-# output$Chart <- renderPlotly({
-#   Chart1 <- clean_test_ranking  %>%
-#     filter(year %in% input$year_choose) %>% 
-#     filter(clean_test %in% input$test_result) %>% 
-#     drop_na()
-#     
-#     x <- plot_ly(clean_test_ranking, labels = ~clean_test, values = ~year, type = 'pie')
-#     x <- x %>% 
-#       layout(title = 'Test results',
-#              xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
-#              yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
-#     
-#     return(x)
-#   }
-#   
-#   )
-# filter(clean_test %in% input$test_result) %>%
